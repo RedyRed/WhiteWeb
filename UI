@@ -110,7 +110,6 @@ local WhiteWebFE = {
 	upd = Instance.new("TextLabel"),
 	updatlog = Instance.new("ScrollingFrame"),
 	UIListLayout_5 = Instance.new("UIListLayout"),
-	UpdateLogThing_2 = Instance.new("TextLabel"),
 	previous = Instance.new("ImageButton"),
 	next = Instance.new("ImageButton"),
 	CommandBar = Instance.new("Frame"),
@@ -1232,24 +1231,11 @@ WhiteWebFE.updatlog.Position = UDim2.new(-0.00323809613, 0, 0.189189196, 0)
 WhiteWebFE.updatlog.Size = UDim2.new(0, 236, 0, 60)
 WhiteWebFE.updatlog.CanvasSize = UDim2.new(0, 0, 0, 0)
 WhiteWebFE.updatlog.ScrollBarThickness = 4
-WhiteWebFE.updatlog.AutomaticCanvasSize = Enum.AutomaticSize.XY
+WhiteWebFE.updatlog.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.UIListLayout_5.Parent = WhiteWebFE.updatlog
 WhiteWebFE.UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
 WhiteWebFE.UIListLayout_5.Padding = UDim.new(0, 3)
-
-WhiteWebFE.UpdateLogThing_2.Name = "UpdateLogThing"
-WhiteWebFE.UpdateLogThing_2.Parent = WhiteWebFE.updatlog
-WhiteWebFE.UpdateLogThing_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.UpdateLogThing_2.BackgroundTransparency = 1.000
-WhiteWebFE.UpdateLogThing_2.BorderSizePixel = 0
-WhiteWebFE.UpdateLogThing_2.Size = UDim2.new(0, 237, 0, 10)
-WhiteWebFE.UpdateLogThing_2.Font = Enum.Font.Highway
-WhiteWebFE.UpdateLogThing_2.Text = "*lol"
-WhiteWebFE.UpdateLogThing_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.UpdateLogThing_2.TextSize = 14.000
-WhiteWebFE.UpdateLogThing_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.UpdateLogThing_2.TextXAlignment = Enum.TextXAlignment.Left
 
 WhiteWebFE.previous.Name = "previous"
 WhiteWebFE.previous.Parent = WhiteWebFE.updatelog
