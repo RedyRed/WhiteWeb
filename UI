@@ -1231,7 +1231,7 @@ WhiteWebFE.updatlog.Position = UDim2.new(-0.00323809613, 0, 0.189189196, 0)
 WhiteWebFE.updatlog.Size = UDim2.new(0, 236, 0, 60)
 WhiteWebFE.updatlog.CanvasSize = UDim2.new(0, 0, 0, 0)
 WhiteWebFE.updatlog.ScrollBarThickness = 4
-WhiteWebFE.updatlog.AutomaticCanvasSize = Enum.AutomaticSize.XY
+WhiteWebFE.updatlog.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.UIListLayout_5.Parent = WhiteWebFE.updatlog
 WhiteWebFE.UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
