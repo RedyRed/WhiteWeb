@@ -220,7 +220,7 @@ local WhiteWebFE = {
 }
 
 WhiteWebFE.WhiteWebFE.Name = "WhiteWebFE"
-WhiteWebFE.WhiteWebFE.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+WhiteWebFE.WhiteWebFE.Parent = game:GetService('CoreGui')
 
 WhiteWebFE.Main.Name = "Main"
 WhiteWebFE.Main.Parent = WhiteWebFE.WhiteWebFE
@@ -712,7 +712,7 @@ WhiteWebFE.UpdateLogThing.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.UpdateLogThing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.UpdateLogThing.BackgroundTransparency = 1.000
 WhiteWebFE.UpdateLogThing.BorderSizePixel = 0
-WhiteWebFE.UpdateLogThing.Size = UDim2.new(0, 237, 0, 10)
+WhiteWebFE.UpdateLogThing.Size = UDim2.new(0, 236, 0, 10)
 WhiteWebFE.UpdateLogThing.Font = Enum.Font.Highway
 WhiteWebFE.UpdateLogThing.Text = "added noobs"
 WhiteWebFE.UpdateLogThing.TextColor3 = Color3.fromRGB(255, 255, 255)
