@@ -1025,6 +1025,7 @@ WhiteWebFE.TopButton.Font = Enum.Font.SourceSans
 WhiteWebFE.TopButton.Text = "Home"
 WhiteWebFE.TopButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.TopButton.TextSize = 14.000
+WhiteWebFE.TopButton.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE.Credits.Name = "Credits"
 WhiteWebFE.Credits.Parent = WhiteWebFE.Sections
