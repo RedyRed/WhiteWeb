@@ -678,6 +678,16 @@ WhiteWebFE.Notify_2.Text = "Notification: Today's sponsor of this hub is Ded VPN
 WhiteWebFE.Notify_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.Notify_2.TextSize = 14.000
 
+WhiteWebFE.List_2.Parent = nil
+WhiteWebFE.misc.Parent = nil
+WhiteWebFE.Notify.Parent = nil
+
+WhiteWebFE.List_2.Parent = WhiteWebFE.TOPSWITCH
+wait()
+WhiteWebFE.misc.Parent = WhiteWebFE.TOPSWITCH
+wait()
+WhiteWebFE.Notify.Parent = WhiteWebFE.TOPSWITCH
+
 WhiteWebFE.STORAGE.Name = "STORAGE"
 WhiteWebFE.STORAGE.Parent = WhiteWebFE.Sections
 WhiteWebFE.STORAGE.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
