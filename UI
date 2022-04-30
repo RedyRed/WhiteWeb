@@ -1,4 +1,3 @@
-local v = '0.1'
 local WhiteWebFE = {
 	WhiteWebFE = Instance.new("ScreenGui"),
 	Main = Instance.new("Frame"),
@@ -2172,7 +2171,5 @@ WhiteWebFE.ThemesDecor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.ThemesDecor.BackgroundTransparency = 1.000
 WhiteWebFE.ThemesDecor.Position = UDim2.new(0.125189677, 0, 0.464887649, 0)
 WhiteWebFE.ThemesDecor.Size = UDim2.new(0, 510, 0, 355)
-
-print('UI Version: '..v)
 
 return WhiteWebFE
