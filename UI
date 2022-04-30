@@ -628,7 +628,7 @@ WhiteWebFE.UIListLayout_2.Parent = WhiteWebFE.List_2
 WhiteWebFE.UIListLayout_2.FillDirection = Enum.FillDirection.Horizontal
 WhiteWebFE.UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 WhiteWebFE.UIListLayout_2.Padding = UDim.new(0, 15)
-
+wait()
 WhiteWebFE.misc.Name = "misc"
 WhiteWebFE.misc.Parent = WhiteWebFE.TOPSWITCH
 WhiteWebFE.misc.Active = true
@@ -644,7 +644,7 @@ WhiteWebFE.misc.CanvasSize = UDim2.new(0, 0, 0.899999976, 0)
 WhiteWebFE.misc.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
 WhiteWebFE.misc.ScrollBarThickness = 2
 WhiteWebFE.misc.ScrollingEnabled = false
-
+wait()
 WhiteWebFE.Notify.Name = "Notify"
 WhiteWebFE.Notify.Parent = WhiteWebFE.TOPSWITCH
 WhiteWebFE.Notify.Active = true
@@ -815,6 +815,7 @@ WhiteWebFE.Click.Font = Enum.Font.Highway
 WhiteWebFE.Click.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.Click.TextSize = 25.000
 WhiteWebFE.Click.TextWrapped = true
+WhiteWebFE.Click.AutoButtonColor = false
 
 WhiteWebFE.UICorner_6.Parent = WhiteWebFE.Click
 
