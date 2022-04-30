@@ -630,6 +630,7 @@ WhiteWebFE.List_2.Size = UDim2.new(0, 0, 0, 16)
 WhiteWebFE.List_2.CanvasSize = UDim2.new(0, 0, 0, 0)
 WhiteWebFE.List_2.ScrollBarThickness = 1
 WhiteWebFE.List_2.AutomaticCanvasSize = Enum.AutomaticSize.X
+WhiteWebFE.List_2.Visible = false
 
 WhiteWebFE.UIPadding_3.Parent = WhiteWebFE.List_2
 
