@@ -611,6 +611,15 @@ WhiteWebFE.TOPSWITCH.ClipsDescendants = true
 WhiteWebFE.TOPSWITCH.Position = UDim2.new(0, 0, 0, -17)
 WhiteWebFE.TOPSWITCH.Size = UDim2.new(0, 390, 0, 33)
 
+WhiteWebFE.UIListLayout_3.Parent = WhiteWebFE.TOPSWITCH
+WhiteWebFE.UIListLayout_3.FillDirection = Enum.FillDirection.Horizontal
+WhiteWebFE.UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+WhiteWebFE.UIListLayout_3.Padding = UDim.new(0, 5)
+
+WhiteWebFE.UIPadding_4.Parent = WhiteWebFE.TOPSWITCH
+WhiteWebFE.UIPadding_4.PaddingLeft = UDim.new(0, 8)
+WhiteWebFE.UIPadding_4.PaddingTop = UDim.new(0, 17)
+
 WhiteWebFE.List_2.Name = "List"
 WhiteWebFE.List_2.Parent = WhiteWebFE.TOPSWITCH
 WhiteWebFE.List_2.Active = true
@@ -628,7 +637,7 @@ WhiteWebFE.UIListLayout_2.Parent = WhiteWebFE.List_2
 WhiteWebFE.UIListLayout_2.FillDirection = Enum.FillDirection.Horizontal
 WhiteWebFE.UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 WhiteWebFE.UIListLayout_2.Padding = UDim.new(0, 15)
-wait()
+
 WhiteWebFE.misc.Name = "misc"
 WhiteWebFE.misc.Parent = WhiteWebFE.TOPSWITCH
 WhiteWebFE.misc.Active = true
@@ -644,7 +653,7 @@ WhiteWebFE.misc.CanvasSize = UDim2.new(0, 0, 0.899999976, 0)
 WhiteWebFE.misc.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
 WhiteWebFE.misc.ScrollBarThickness = 2
 WhiteWebFE.misc.ScrollingEnabled = false
-wait()
+
 WhiteWebFE.Notify.Name = "Notify"
 WhiteWebFE.Notify.Parent = WhiteWebFE.TOPSWITCH
 WhiteWebFE.Notify.Active = true
@@ -668,15 +677,6 @@ WhiteWebFE.Notify_2.Font = Enum.Font.Highway
 WhiteWebFE.Notify_2.Text = "Notification: Today's sponsor of this hub is Ded VPN"
 WhiteWebFE.Notify_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.Notify_2.TextSize = 14.000
-
-WhiteWebFE.UIListLayout_3.Parent = WhiteWebFE.TOPSWITCH
-WhiteWebFE.UIListLayout_3.FillDirection = Enum.FillDirection.Horizontal
-WhiteWebFE.UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
-WhiteWebFE.UIListLayout_3.Padding = UDim.new(0, 5)
-
-WhiteWebFE.UIPadding_4.Parent = WhiteWebFE.TOPSWITCH
-WhiteWebFE.UIPadding_4.PaddingLeft = UDim.new(0, 8)
-WhiteWebFE.UIPadding_4.PaddingTop = UDim.new(0, 17)
 
 WhiteWebFE.STORAGE.Name = "STORAGE"
 WhiteWebFE.STORAGE.Parent = WhiteWebFE.Sections
