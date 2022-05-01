@@ -129,6 +129,20 @@ local WhiteWebFE = {
 	ConsoleTxt_2 = Instance.new("TextLabel"),
 	ratata = Instance.new("TextLabel"),
 	ConsoleTxt_3 = Instance.new("TextLabel"),
+	
+	Slider = Instance.new("Frame"),
+	UICorner1 = Instance.new("UICorner"),
+	mline = Instance.new("Frame"),
+	UICorner_20 = Instance.new("UICorner"),
+	online = Instance.new("Frame"),
+	UICorner_330 = Instance.new("UICorner"),
+	button = Instance.new("TextButton"),
+	UICorner_44 = Instance.new("UICorner"),
+	num = Instance.new("Frame"),
+	UICorner_52 = Instance.new("UICorner"),
+	sltextbox = Instance.new("TextBox"),
+	slidername = Instance.new("TextLabel"),
+	
 	gamewarn = Instance.new("Frame"),
 	gamewarntext = Instance.new("TextLabel"),
 	namegame = Instance.new("TextLabel"),
@@ -184,7 +198,7 @@ local WhiteWebFE = {
 	advcolorsb_2 = Instance.new("ImageButton"),
 	ColourPreview = Instance.new("Frame"),
 	ColourGradientFrame = Instance.new("TextButton"),
-	Slider = Instance.new("TextButton"),
+	ColorSlider = Instance.new("TextButton"),
 	ColourGradient = Instance.new("UIGradient"),
 	DarknessGradientFrame = Instance.new("TextButton"),
 	Slider_2 = Instance.new("TextButton"),
@@ -2182,5 +2196,83 @@ WhiteWebFE.ThemesDecor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.ThemesDecor.BackgroundTransparency = 1.000
 WhiteWebFE.ThemesDecor.Position = UDim2.new(0.125189677, 0, 0.464887649, 0)
 WhiteWebFE.ThemesDecor.Size = UDim2.new(0, 510, 0, 355)
+
+
+WhiteWebFE.Slider.Name = "Slider"
+WhiteWebFE.Slider.Parent = game.StarterGui.WhiteWebFE.Main.Sections.STORAGE
+WhiteWebFE.Slider.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.Slider.Position = UDim2.new(0, 0, 0.571428597, 0)
+WhiteWebFE.Slider.Size = UDim2.new(0, 340, 0, 40)
+
+WhiteWebFE.UICorner1.Parent = WhiteWebFE.Slider
+
+WhiteWebFE.mline.Name = "mline"
+WhiteWebFE.mline.Parent = WhiteWebFE.Slider
+WhiteWebFE.mline.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+WhiteWebFE.mline.BorderSizePixel = 0
+WhiteWebFE.mline.Position = UDim2.new(0.0299999993, 0, 0.73299998, 0)
+WhiteWebFE.mline.Size = UDim2.new(0, 260, 0, 5)
+
+WhiteWebFE.UICorner_20.CornerRadius = UDim.new(99, 99)
+WhiteWebFE.UICorner_20.Parent = WhiteWebFE.mline
+
+WhiteWebFE.online.Name = "online"
+WhiteWebFE.online.Parent = WhiteWebFE.Slider
+WhiteWebFE.online.BackgroundColor3 = Color3.fromRGB(114, 255, 82)
+WhiteWebFE.online.BorderSizePixel = 0
+WhiteWebFE.online.Position = UDim2.new(0.0300000366, 0, 0.732999682, 0)
+WhiteWebFE.online.Size = UDim2.new(0, 0, 0, 5)
+
+WhiteWebFE.UICorner_44.CornerRadius = UDim.new(99, 99)
+WhiteWebFE.UICorner_44.Parent = WhiteWebFE.online
+
+WhiteWebFE.button.Name = "button"
+WhiteWebFE.button.Parent = WhiteWebFE.online
+WhiteWebFE.button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.button.Size = UDim2.new(0, 8, 0, 8)
+WhiteWebFE.button.ZIndex = 2
+WhiteWebFE.button.Font = Enum.Font.SourceSans
+WhiteWebFE.button.Text = ""
+WhiteWebFE.button.TextColor3 = Color3.fromRGB(0, 0, 0)
+WhiteWebFE.button.TextSize = 14.000
+
+WhiteWebFE.UICorner_52.CornerRadius = UDim.new(99, 99)
+WhiteWebFE.UICorner_52.Parent = WhiteWebFE.button
+
+WhiteWebFE.num.Name = "num"
+WhiteWebFE.num.Parent = WhiteWebFE.Slider
+WhiteWebFE.num.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+WhiteWebFE.num.BorderSizePixel = 0
+WhiteWebFE.num.Position = UDim2.new(0.850117564, 0, 0, 0)
+WhiteWebFE.num.Size = UDim2.new(0, 51, 0, 30)
+
+WhiteWebFE.UICorner_330.Parent = WhiteWebFE.num
+
+WhiteWebFE.sltextbox.Name = "sltextbox"
+WhiteWebFE.sltextbox.Parent = WhiteWebFE.num
+WhiteWebFE.sltextbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.sltextbox.BackgroundTransparency = 1.000
+WhiteWebFE.sltextbox.ClipsDescendants = true
+WhiteWebFE.sltextbox.Position = UDim2.new(0, 0, 0.0540000014, 0)
+WhiteWebFE.sltextbox.Size = UDim2.new(0, 51, 0, 30)
+WhiteWebFE.sltextbox.Font = Enum.Font.Highway
+WhiteWebFE.sltextbox.Text = "0"
+WhiteWebFE.sltextbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.sltextbox.TextScaled = true
+WhiteWebFE.sltextbox.TextSize = 25.000
+WhiteWebFE.sltextbox.TextWrapped = true
+
+WhiteWebFE.slidername.Name = "name"
+WhiteWebFE.slidername.Parent = WhiteWebFE.Slider
+WhiteWebFE.slidername.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.slidername.BackgroundTransparency = 1.000
+WhiteWebFE.slidername.ClipsDescendants = true
+WhiteWebFE.slidername.Position = UDim2.new(0.0300000366, 0, 0, 0)
+WhiteWebFE.slidername.Size = UDim2.new(0, 269, 0, 20)
+WhiteWebFE.slidername.Font = Enum.Font.Highway
+WhiteWebFE.slidername.Text = "Slider"
+WhiteWebFE.slidername.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.slidername.TextSize = 25.000
+WhiteWebFE.slidername.TextXAlignment = Enum.TextXAlignment.Left
 
 return WhiteWebFE
