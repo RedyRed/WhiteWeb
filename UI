@@ -2199,7 +2199,7 @@ WhiteWebFE.ThemesDecor.Size = UDim2.new(0, 510, 0, 355)
 
 
 WhiteWebFE.Slider.Name = "Slider"
-WhiteWebFE.Slider.Parent = game.StarterGui.WhiteWebFE.Main.Sections.STORAGE
+WhiteWebFE.Slider.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.Slider.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 WhiteWebFE.Slider.Position = UDim2.new(0, 0, 0.571428597, 0)
 WhiteWebFE.Slider.Size = UDim2.new(0, 340, 0, 40)
