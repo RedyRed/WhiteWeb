@@ -233,7 +233,7 @@ local WhiteWebFE = {
 	ThemesDecor = Instance.new("Frame"),
 	
 	Veriframe = Instance.new("Frame"),
-	odeVerif = Instance.new("TextBox"),
+	CodeVerif = Instance.new("TextBox"),
 	UICorner242 = Instance.new("UICorner"),
 	CancelVerif = Instance.new("TextButton"),
 	UICorner_242 = Instance.new("UICorner"),
