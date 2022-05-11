@@ -37,7 +37,7 @@ local WhiteWebFE = {
 	Teleport = Instance.new("ScrollingFrame"),
 	Confirm = Instance.new("TextButton"),
 	Label = Instance.new("TextLabel"),
-	Cancel = Instance.new("TextButton"),
+	Cancel = Instance.new("TextButton"), 
 	GameName = Instance.new("TextLabel"),
 	TOPSWITCH = Instance.new("Frame"),
 	List_2 = Instance.new("ScrollingFrame"),
@@ -129,7 +129,7 @@ local WhiteWebFE = {
 	ConsoleTxt_2 = Instance.new("TextLabel"),
 	ratata = Instance.new("TextLabel"),
 	ConsoleTxt_3 = Instance.new("TextLabel"),
-	
+
 	Slider = Instance.new("Frame"),
 	UICorner1 = Instance.new("UICorner"),
 	mline = Instance.new("Frame"),
@@ -142,7 +142,7 @@ local WhiteWebFE = {
 	UICorner_52 = Instance.new("UICorner"),
 	sltextbox = Instance.new("TextBox"),
 	slidername = Instance.new("TextLabel"),
-	
+
 	gamewarn = Instance.new("Frame"),
 	gamewarntext = Instance.new("TextLabel"),
 	namegame = Instance.new("TextLabel"),
@@ -231,6 +231,16 @@ local WhiteWebFE = {
 	clear = Instance.new("TextButton"),
 	UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint"),
 	ThemesDecor = Instance.new("Frame"),
+	
+	Veriframe = Instance.new("Frame"),
+	odeVerif = Instance.new("TextBox"),
+	UICorner242 = Instance.new("UICorner"),
+	CancelVerif = Instance.new("TextButton"),
+	UICorner_242 = Instance.new("UICorner"),
+	CheckCodeVerif = Instance.new("TextButton"),
+	UICorner_342 = Instance.new("UICorner"),
+	GetCodeVerif = Instance.new("TextButton"),
+	UICorner_442 = Instance.new("UICorner"),
 }
 
 WhiteWebFE.WhiteWebFE.Name = "WhiteWebFE"
@@ -1211,6 +1221,7 @@ WhiteWebFE.specmsgs.Font = Enum.Font.SourceSans
 WhiteWebFE.specmsgs.Text = "To close home page click one of the categories above (e.g Script Hub)"
 WhiteWebFE.specmsgs.TextColor3 = Color3.fromRGB(112, 112, 112)
 WhiteWebFE.specmsgs.TextSize = 14.000
+WhiteWebFE.specmsgs.TextTransparency = 1
 
 WhiteWebFE.welcom.Name = "welcom"
 WhiteWebFE.welcom.Parent = WhiteWebFE.Home
@@ -2274,5 +2285,72 @@ WhiteWebFE.slidername.Text = "Slider"
 WhiteWebFE.slidername.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.slidername.TextSize = 25.000
 WhiteWebFE.slidername.TextXAlignment = Enum.TextXAlignment.Left
+
+
+WhiteWebFE.Veriframe.Name = "Veriframe"
+WhiteWebFE.Veriframe.Parent = WhiteWebFE.ScriptHub
+WhiteWebFE.Veriframe.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+WhiteWebFE.Veriframe.BorderSizePixel = 0
+WhiteWebFE.Veriframe.Position = UDim2.new(0, 0, 0.0759885833, 0)
+WhiteWebFE.Veriframe.Size = UDim2.new(0, 365, 0, 150)
+
+WhiteWebFE.CodeVerif.Name = "CodeVerif"
+WhiteWebFE.CodeVerif.Parent = WhiteWebFE.Veriframe
+WhiteWebFE.CodeVerif.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.CodeVerif.BorderSizePixel = 0
+WhiteWebFE.CodeVerif.Position = UDim2.new(0.0983836502, 0, 0.360607922, 0)
+WhiteWebFE.CodeVerif.Size = UDim2.new(0, 293, 0, 29)
+WhiteWebFE.CodeVerif.Font = Enum.Font.Highway
+WhiteWebFE.CodeVerif.PlaceholderText = "Code"
+WhiteWebFE.CodeVerif.Text = ""
+WhiteWebFE.CodeVerif.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.CodeVerif.TextSize = 25.000
+
+WhiteWebFE.UICorner242.Parent = WhiteWebFE.CodeVerif
+
+WhiteWebFE.CancelVerif.Name = "CancelVerif"
+WhiteWebFE.CancelVerif.Parent = WhiteWebFE.Veriframe
+WhiteWebFE.CancelVerif.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.CancelVerif.BorderSizePixel = 0
+WhiteWebFE.CancelVerif.Position = UDim2.new(0.529201746, 0, 0.648832083, 0)
+WhiteWebFE.CancelVerif.Size = UDim2.new(0, 135, 0, 30)
+WhiteWebFE.CancelVerif.Font = Enum.Font.Highway
+WhiteWebFE.CancelVerif.Text = "Cancel"
+WhiteWebFE.CancelVerif.TextColor3 = Color3.fromRGB(255, 78, 78)
+WhiteWebFE.CancelVerif.TextScaled = true
+WhiteWebFE.CancelVerif.TextSize = 14.000
+WhiteWebFE.CancelVerif.TextWrapped = true
+
+WhiteWebFE.UICorner_242.Parent = WhiteWebFE.CancelVerif
+
+WhiteWebFE.CheckCodeVerif.Name = "CheckCodeVerif"
+WhiteWebFE.CheckCodeVerif.Parent = WhiteWebFE.Veriframe
+WhiteWebFE.CheckCodeVerif.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.CheckCodeVerif.BorderSizePixel = 0
+WhiteWebFE.CheckCodeVerif.Position = UDim2.new(0.0963250846, 0, 0.648832083, 0)
+WhiteWebFE.CheckCodeVerif.Size = UDim2.new(0, 135, 0, 30)
+WhiteWebFE.CheckCodeVerif.Font = Enum.Font.Highway
+WhiteWebFE.CheckCodeVerif.Text = "Check Code"
+WhiteWebFE.CheckCodeVerif.TextColor3 = Color3.fromRGB(120, 255, 120)
+WhiteWebFE.CheckCodeVerif.TextScaled = true
+WhiteWebFE.CheckCodeVerif.TextSize = 14.000
+WhiteWebFE.CheckCodeVerif.TextWrapped = true
+
+WhiteWebFE.UICorner_342.Parent = WhiteWebFE.CheckCodeVerif
+
+WhiteWebFE.GetCodeVerif.Name = "GetCodeVerif"
+WhiteWebFE.GetCodeVerif.Parent = WhiteWebFE.Veriframe
+WhiteWebFE.GetCodeVerif.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.GetCodeVerif.BorderSizePixel = 0
+WhiteWebFE.GetCodeVerif.Position = UDim2.new(0.0963250175, 0, 0.088831991, 0)
+WhiteWebFE.GetCodeVerif.Size = UDim2.new(0, 293, 0, 30)
+WhiteWebFE.GetCodeVerif.Font = Enum.Font.Highway
+WhiteWebFE.GetCodeVerif.Text = "Get Code (linkvertise)"
+WhiteWebFE.GetCodeVerif.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.GetCodeVerif.TextScaled = true
+WhiteWebFE.GetCodeVerif.TextSize = 14.000
+WhiteWebFE.GetCodeVerif.TextWrapped = true
+
+WhiteWebFE.UICorner_442.Parent = WhiteWebFE.GetCodeVerif
 
 return WhiteWebFE
