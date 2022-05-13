@@ -1000,6 +1000,7 @@ WhiteWebFE.UIListLayout_4.Padding = UDim.new(0, 10)
 
 WhiteWebFE.UIPadding_7.Parent = WhiteWebFE.MainCat
 WhiteWebFE.UIPadding_7.PaddingTop = UDim.new(0, 10)
+WhiteWebFE.UIPadding_7.PaddingBottom = UDim.new(0, 10)
 
 WhiteWebFE.sound.Name = "sound"
 WhiteWebFE.sound.Parent = WhiteWebFE.STORAGE
