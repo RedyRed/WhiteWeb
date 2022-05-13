@@ -1527,7 +1527,7 @@ WhiteWebFE.ScriptHub_2.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.UIPadding_11.Parent = WhiteWebFE.ScriptHub_2
 WhiteWebFE.UIPadding_11.PaddingBottom = UDim.new(0, 10)
-WhiteWebFE.UIPadding_11.PaddingLeft = UDim.new(0, 20)
+WhiteWebFE.UIPadding_11.PaddingLeft = UDim.new(0, 12)
 WhiteWebFE.UIPadding_11.PaddingTop = UDim.new(0, 10)
 
 WhiteWebFE.UIGridLayout_4.Parent = WhiteWebFE.ScriptHub_2
