@@ -693,10 +693,10 @@ WhiteWebFE.Notify_2.Parent = WhiteWebFE.Notify
 WhiteWebFE.Notify_2.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
 WhiteWebFE.Notify_2.BackgroundTransparency = 1.000
 WhiteWebFE.Notify_2.BorderSizePixel = 0
-WhiteWebFE.Notify_2.Size = UDim2.new(0, 365, 0, 16)
+WhiteWebFE.Notify_2.Size = UDim2.new(0, 365, 0, 16) 
 WhiteWebFE.Notify_2.ZIndex = 2
 WhiteWebFE.Notify_2.Font = Enum.Font.Highway
-WhiteWebFE.Notify_2.Text = "Notification: Today's sponsor of this hub is Ded VPN"
+WhiteWebFE.Notify_2.Text = ""
 WhiteWebFE.Notify_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.Notify_2.TextSize = 14.000
 
