@@ -7,6 +7,9 @@ local logs = {
     },
     b = {
         ['name'] = '0.9.8.1b',
+        ['updates'] = {},
+        ['added'] = {'Converted Natural Disaster Survival'},
+        ['removed'] = {},
     },
 }
 
