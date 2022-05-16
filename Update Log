@@ -9,3 +9,5 @@ local logs = {
         ['name'] = '0.9.8.1b',
     }
 }
+
+return logs
