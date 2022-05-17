@@ -990,7 +990,7 @@ WhiteWebFE.MainCat.BorderColor3 = Color3.fromRGB(0, 0, 0)
 WhiteWebFE.MainCat.BorderSizePixel = 0
 WhiteWebFE.MainCat.Position = UDim2.new(0, 0, 0.0662290305, 0)
 WhiteWebFE.MainCat.Size = UDim2.new(0, 366, 0, 155)
-WhiteWebFE.MainCat.CanvasSize = UDim2.new(0, 0, 2, 40)
+WhiteWebFE.MainCat.CanvasSize = UDim2.new(0, 0, 0, 0)
 WhiteWebFE.MainCat.ScrollBarThickness = 4
 WhiteWebFE.MainCat.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
