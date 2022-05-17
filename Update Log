@@ -7,7 +7,7 @@ logs['0.9.8b'] = {
     }
 logs['0.9.8.1b'] = {
         ['updates'] = {},
-        ['added'] = {'Converted Natural Disaster Survival'},
+        ['added'] = {'Converted Natural Disaster Survival', 'Converted Build A Boat For Treasure'},
         ['removed'] = {},
     }
 
