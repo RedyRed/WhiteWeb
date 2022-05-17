@@ -370,9 +370,9 @@ WhiteWebFE.logo.Name = "logo"
 WhiteWebFE.logo.Parent = WhiteWebFE.RoundifyTopFrame
 WhiteWebFE.logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.logo.BackgroundTransparency = 1.000
-WhiteWebFE.logo.Position = UDim2.new(-0.00256410264, 0, 0.0799999982, 0)
-WhiteWebFE.logo.Size = UDim2.new(0, 35, 0, 25)
-WhiteWebFE.logo.Image = "rbxassetid://5942585353"
+WhiteWebFE.logo.Position = UDim2.new(0, 0,0.04, 0)
+WhiteWebFE.logo.Size = UDim2.new(0, 35, 0, 23)
+WhiteWebFE.logo.Image = "http://www.roblox.com/asset/?id=9655321061"
 
 WhiteWebFE.beta.Name = "beta"
 WhiteWebFE.beta.Parent = WhiteWebFE.RoundifyTopFrame
