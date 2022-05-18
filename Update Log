@@ -1,11 +1,13 @@
 local logs = {}
 
-logs['0.9.8b'] = {
+logs[#logs+1] = {
+        ['name'] = '0.9.8b'
         ['updates'] = {"Updated intro", "Join discord for more update details", "Using command bar is now easier", 'Roundified!', 'Buttons, Toggles and other variables are now longer', 'Minor bug fixes'},
         ['added'] = {"Added more identification options in command bar", "Added colors to update log", "Added settings saving system (writefile, readfile required)", 'Added linkvertise for Script Hub', 'Added update log history (starting V0.9.8b)'},
         ['removed'] = {"Temporarily removed Murder Mystery 2", "Removed Ragdoll Engine (closed)", 'Removed GUI users\' billboard above the head', 'Removed some games due to a big delay of the update and need of more time to convert them'},
     }
-logs['0.9.8.1b'] = {
+logs[#logs+1] = {
+        ['name'] = '0.9.8.1b'
         ['updates'] = {},
         ['added'] = {'Converted Natural Disaster Survival', 'Converted Build A Boat For Treasure'},
         ['removed'] = {},
