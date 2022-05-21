@@ -12,5 +12,11 @@ logs[#logs+1] = {
         ['added'] = {'Converted Natural Disaster Survival', 'Converted Build A Boat For Treasure'},
         ['removed'] = {},
     }
+logs[#logs+1] = {
+        ['name'] = '0.9.8.2b',
+        ['updates'] = {},
+        ['added'] = {},
+        ['removed'] = {},
+    }
 
 return logs
