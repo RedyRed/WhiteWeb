@@ -14,7 +14,7 @@ logs[#logs+1] = {
     }
 logs[#logs+1] = {
         ['name'] = '0.9.8.2b',
-        ['updates'] = {},
+        ['updates'] = {'Improved updates log'},
         ['added'] = {},
         ['removed'] = {},
     }
