@@ -13,9 +13,9 @@ logs[#logs+1] = {
         ['removed'] = {},
     }
 logs[#logs+1] = {
-        ['name'] = '0.9.8.2b',
+        ['name'] = '0.9.9b',
         ['updates'] = {'Improved updates log'},
-        ['added'] = {},
+        ['added'] = {'Added Keybinds', 'Added Themes [WIP]', 'Added Main Settings [WIP]'},
         ['removed'] = {},
     }
 
