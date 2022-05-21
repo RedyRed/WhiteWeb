@@ -1640,9 +1640,11 @@ WhiteWebFE.UICorner_16.Parent = WhiteWebFE.bind
 WhiteWebFE.UIPadding_13.Parent = WhiteWebFE.Binds
 WhiteWebFE.UIPadding_13.PaddingLeft = UDim.new(0, 5)
 WhiteWebFE.UIPadding_13.PaddingTop = UDim.new(0, 5)
+WhiteWebFE.UIPadding_13.PaddingBottom = UDim.new(0,5)
 
 WhiteWebFE.UIListLayout_9.Parent = WhiteWebFE.Binds
 WhiteWebFE.UIListLayout_9.SortOrder = Enum.SortOrder.LayoutOrder
+WhiteWebFE.UIListLayout_9.Padding = UDim.new(0, 5)
 
 WhiteWebFE.se.Name = "se"
 WhiteWebFE.se.Parent = WhiteWebFE.KeyBinds
