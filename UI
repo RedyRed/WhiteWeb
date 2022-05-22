@@ -1663,6 +1663,7 @@ WhiteWebFE.stkey.Parent = WhiteWebFE.se
 WhiteWebFE.stkey.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 WhiteWebFE.stkey.BorderSizePixel = 0
 WhiteWebFE.stkey.Size = UDim2.new(0, 115, 0, 24)
+WhiteWebFE.stkey.Visible = false
 
 WhiteWebFE.name_2.Name = "name"
 WhiteWebFE.name_2.Parent = WhiteWebFE.stkey
