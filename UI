@@ -1217,10 +1217,11 @@ WhiteWebFE.specmsgs.BackgroundTransparency = 1.000
 WhiteWebFE.specmsgs.Position = UDim2.new(0, 0, 0.795476317, 0)
 WhiteWebFE.specmsgs.Size = UDim2.new(0, 365, 0, 33)
 WhiteWebFE.specmsgs.Font = Enum.Font.SourceSans
-WhiteWebFE.specmsgs.Text = "To close home page click one of the categories above (e.g Script Hub)"
+WhiteWebFE.specmsgs.Text = ""
 WhiteWebFE.specmsgs.TextColor3 = Color3.fromRGB(112, 112, 112)
 WhiteWebFE.specmsgs.TextSize = 14.000
 WhiteWebFE.specmsgs.TextTransparency = 1
+WhiteWebFE.specmsgs.TextWrapped = true
 
 WhiteWebFE.welcom.Name = "welcom"
 WhiteWebFE.welcom.Parent = WhiteWebFE.Home
