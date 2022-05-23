@@ -899,6 +899,7 @@ WhiteWebFE.Toggle.Text = ""
 WhiteWebFE.Toggle.TextColor3 = Color3.fromRGB(35, 35, 35)
 WhiteWebFE.Toggle.TextSize = 1.000
 WhiteWebFE.Toggle.AutoButtonColor = false
+WhiteWebFE.Toggle.BorderSizePixel = 0
 
 WhiteWebFE.r.Name = "r"
 WhiteWebFE.r.Parent = WhiteWebFE.Toggle
