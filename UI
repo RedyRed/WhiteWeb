@@ -213,9 +213,7 @@ local WhiteWebFE = {
 	themestatus_2 = Instance.new("TextLabel"),
 	ThemeBackground = Instance.new("ImageLabel"),
 	UICorner_19 = Instance.new("UICorner"),
-	MainSettings = Instance.new("Frame"),
-	TextLabel_4 = Instance.new("TextLabel"),
-	TextLabel_5 = Instance.new("TextLabel"),
+
 	SoundLogger = Instance.new("Frame"),
 	sounds = Instance.new("ScrollingFrame"),
 	UIPadding_17 = Instance.new("UIPadding"),
@@ -238,6 +236,12 @@ local WhiteWebFE = {
 	UICorner_342 = Instance.new("UICorner"),
 	GetCodeVerif = Instance.new("TextButton"),
 	UICorner_442 = Instance.new("UICorner"),
+	
+	MainSettings = Instance.new("Frame"),
+	Buttinsyes = Instance.new("Frame"),
+	peeeat = Instance.new("UIPadding"),
+	poopeat = Instance.new("UIListLayout"),
+	yesssss = Instance.new("TextLabel"),
 }
 
 WhiteWebFE.WhiteWebFE.Name = "WhiteWebFE"
@@ -2062,29 +2066,34 @@ WhiteWebFE.MainSettings.Position = UDim2.new(0.0309999995, 0, 0.0790000036, 0)
 WhiteWebFE.MainSettings.Size = UDim2.new(0, 366, 0, 166)
 WhiteWebFE.MainSettings.Visible = false
 
-WhiteWebFE.TextLabel_4.Parent = WhiteWebFE.MainSettings
-WhiteWebFE.TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.TextLabel_4.BackgroundTransparency = 1.000
-WhiteWebFE.TextLabel_4.Position = UDim2.new(0.226775959, 0, 0.34939757, 0)
-WhiteWebFE.TextLabel_4.Size = UDim2.new(0, 200, 0, 52)
-WhiteWebFE.TextLabel_4.Font = Enum.Font.SourceSans
-WhiteWebFE.TextLabel_4.Text = "Settings are not available at the moment"
-WhiteWebFE.TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.TextLabel_4.TextScaled = true
-WhiteWebFE.TextLabel_4.TextSize = 14.000
-WhiteWebFE.TextLabel_4.TextWrapped = true
+WhiteWebFE.Buttinsyes.Name = "Buttinsyes"
+WhiteWebFE.Buttinsyes.Parent = WhiteWebFE.MainSettings
+WhiteWebFE.Buttinsyes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.Buttinsyes.BackgroundTransparency = 1.000
+WhiteWebFE.Buttinsyes.Position = UDim2.new(0, 0, 0.0712950528, 0)
+WhiteWebFE.Buttinsyes.Size = UDim2.new(0, 365, 0, 152)
 
-WhiteWebFE.TextLabel_5.Parent = WhiteWebFE.MainSettings
-WhiteWebFE.TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.TextLabel_5.BackgroundTransparency = 1.000
-WhiteWebFE.TextLabel_5.Position = UDim2.new(0.300546438, 0, 0, 0)
-WhiteWebFE.TextLabel_5.Size = UDim2.new(0, 146, 0, 39)
-WhiteWebFE.TextLabel_5.Font = Enum.Font.SourceSans
-WhiteWebFE.TextLabel_5.Text = "Work In Process"
-WhiteWebFE.TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.TextLabel_5.TextScaled = true
-WhiteWebFE.TextLabel_5.TextSize = 14.000
-WhiteWebFE.TextLabel_5.TextWrapped = true
+WhiteWebFE.peeeat.Name = "peeeat"
+WhiteWebFE.peeeat.Parent = WhiteWebFE.Buttinsyes
+WhiteWebFE.peeeat.PaddingBottom = UDim.new(0, 10)
+WhiteWebFE.peeeat.PaddingLeft = UDim.new(0, 20)
+WhiteWebFE.peeeat.PaddingTop = UDim.new(0, 10)
+
+WhiteWebFE.poopeat.Name = "poopeat"
+WhiteWebFE.poopeat.Parent = WhiteWebFE.Buttinsyes
+WhiteWebFE.poopeat.SortOrder = Enum.SortOrder.LayoutOrder
+WhiteWebFE.poopeat.Padding = UDim.new(0, 5)
+
+WhiteWebFE.yesssss.Name = "yesssss"
+WhiteWebFE.yesssss.Parent = WhiteWebFE.MainSettings
+WhiteWebFE.yesssss.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.yesssss.BorderSizePixel = 0
+WhiteWebFE.yesssss.Position = UDim2.new(0.225940779, 0, -0.00232457812, 0)
+WhiteWebFE.yesssss.Size = UDim2.new(0, 200, 0, 12)
+WhiteWebFE.yesssss.Font = Enum.Font.SourceSans
+WhiteWebFE.yesssss.Text = "Main Settings"
+WhiteWebFE.yesssss.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.yesssss.TextSize = 14.000
 
 WhiteWebFE.SoundLogger.Name = "SoundLogger"
 WhiteWebFE.SoundLogger.Parent = WhiteWebFE.Sections
