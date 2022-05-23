@@ -240,7 +240,7 @@ local WhiteWebFE = {
 	MainSettings = Instance.new("Frame"),
 	Buttinsyes = Instance.new("Frame"),
 	peeeat = Instance.new("UIPadding"),
-	poopeat = Instance.new("UIListLayout"),
+	pooeat = Instance.new("UIGridLayout"),
 	yesssss = Instance.new("TextLabel"),
 }
 
@@ -2079,10 +2079,12 @@ WhiteWebFE.peeeat.PaddingBottom = UDim.new(0, 10)
 WhiteWebFE.peeeat.PaddingLeft = UDim.new(0, 20)
 WhiteWebFE.peeeat.PaddingTop = UDim.new(0, 10)
 
-WhiteWebFE.poopeat.Name = "poopeat"
-WhiteWebFE.poopeat.Parent = WhiteWebFE.Buttinsyes
-WhiteWebFE.poopeat.SortOrder = Enum.SortOrder.LayoutOrder
-WhiteWebFE.poopeat.Padding = UDim.new(0, 5)
+WhiteWebFE.pooeat.Name = "pooeat"
+WhiteWebFE.pooeat.Parent = WhiteWebFE.Buttinsyes
+WhiteWebFE.pooeat.SortOrder = Enum.SortOrder.LayoutOrder
+WhiteWebFE.pooeat.CellPadding = UDim2.new(0, 10, 0, 10)
+WhiteWebFE.pooeat.CellSize = UDim2.new(0, 106, 0, 30)
+WhiteWebFE.pooeat.FillDirectionMaxCells = 999
 
 WhiteWebFE.yesssss.Name = "yesssss"
 WhiteWebFE.yesssss.Parent = WhiteWebFE.MainSettings
