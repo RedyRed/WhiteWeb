@@ -242,6 +242,9 @@ local WhiteWebFE = {
 	peeeat = Instance.new("UIPadding"),
 	pooeat = Instance.new("UIGridLayout"),
 	yesssss = Instance.new("TextLabel"),
+	
+	AlarmSound = Instance.new('Sound'),
+	NotifySound = Instance.new('Sound'),
 }
 
 WhiteWebFE.WhiteWebFE.Name = "WhiteWebFE"
@@ -2331,5 +2334,11 @@ WhiteWebFE.GetCodeVerif.TextSize = 14.000
 WhiteWebFE.GetCodeVerif.TextWrapped = true
 
 WhiteWebFE.UICorner_442.Parent = WhiteWebFE.GetCodeVerif
+
+WhiteWebFE.AlarmSound.Parent = WhiteWebFE.WhiteWebFE
+WhiteWebFE.AlarmSound.SoundId = 'rbxassetid://9113085665'
+
+WhiteWebFE.NotifySound.Parent = WhiteWebFE.WhiteWebFE
+WhiteWebFE.NotifySound.SoundId = 'rbxassetid://669602052'
 
 return WhiteWebFE
