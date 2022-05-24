@@ -21,7 +21,7 @@ logs[#logs+1] = {
 logs[#logs+1] = {
         ['name'] = '1.3.0b',
         ['updates'] = {'Finished Main Settings'},
-        ['added'] = {'Added a search bar for Script Hub'},
+        ['added'] = {'Added a search bar for Script Hub', 'Added commands for non-users (whitelist system) for premium access only'},
         ['removed'] = {},
     }
 
