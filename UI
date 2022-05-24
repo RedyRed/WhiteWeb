@@ -746,6 +746,7 @@ WhiteWebFE.CmdBarCmd.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.CmdBarCmd.TextScaled = true
 WhiteWebFE.CmdBarCmd.TextSize = 14.000
 WhiteWebFE.CmdBarCmd.TextWrapped = true
+WhiteWebFE.CmdBarCmd.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE.UpdateLogThing.Name = "UpdateLogThing"
 WhiteWebFE.UpdateLogThing.Parent = WhiteWebFE.STORAGE
@@ -803,6 +804,7 @@ WhiteWebFE.ConsoleTxt.Text = "Console_"
 WhiteWebFE.ConsoleTxt.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.ConsoleTxt.TextSize = 14.000
 WhiteWebFE.ConsoleTxt.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.ConsoleTxt.AutomaticSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.Game.Name = "Game"
 WhiteWebFE.Game.Parent = WhiteWebFE.STORAGE
