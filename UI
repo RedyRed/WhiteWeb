@@ -2086,15 +2086,15 @@ WhiteWebFE.Buttinsyes.Size = UDim2.new(0, 365, 0, 152)
 WhiteWebFE.peeeat.Name = "peeeat"
 WhiteWebFE.peeeat.Parent = WhiteWebFE.Buttinsyes
 WhiteWebFE.peeeat.PaddingBottom = UDim.new(0, 10)
-WhiteWebFE.peeeat.PaddingLeft = UDim.new(0, 20)
+WhiteWebFE.peeeat.PaddingLeft = UDim.new(0, 13)
 WhiteWebFE.peeeat.PaddingTop = UDim.new(0, 10)
 
 WhiteWebFE.pooeat.Name = "pooeat"
 WhiteWebFE.pooeat.Parent = WhiteWebFE.Buttinsyes
 WhiteWebFE.pooeat.SortOrder = Enum.SortOrder.LayoutOrder
-WhiteWebFE.pooeat.CellPadding = UDim2.new(0, 10, 0, 10)
 WhiteWebFE.pooeat.CellSize = UDim2.new(0, 340, 0, 30)
 WhiteWebFE.pooeat.FillDirectionMaxCells = 999
+WhiteWebFE.pooeat.CellPadding = UDim2.new(0,10,0,5)
 
 WhiteWebFE.yesssss.Name = "yesssss"
 WhiteWebFE.yesssss.Parent = WhiteWebFE.MainSettings
