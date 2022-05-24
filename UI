@@ -245,6 +245,10 @@ local WhiteWebFE = {
 	
 	AlarmSound = Instance.new('Sound'),
 	NotifySound = Instance.new('Sound'),
+	
+	SearchGame = Instance.new("TextBox"),
+	UICorner_313 = Instance.new("UICorner"),
+	openSearch = Instance.new("ImageButton"),
 }
 
 WhiteWebFE.WhiteWebFE.Name = "WhiteWebFE"
@@ -2343,5 +2347,29 @@ WhiteWebFE.AlarmSound.SoundId = 'rbxassetid://9113085665'
 
 WhiteWebFE.NotifySound.Parent = WhiteWebFE.WhiteWebFE
 WhiteWebFE.NotifySound.SoundId = 'rbxassetid://669602052'
+
+WhiteWebFE.SearchGame.Name = "SearchGame"
+WhiteWebFE.SearchGame.Parent = WhiteWebFE.ScriptHub
+WhiteWebFE.SearchGame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.SearchGame.BorderSizePixel = 0
+WhiteWebFE.SearchGame.Position = UDim2.new(0.0378628634, 0, 1.00506592, 0)
+WhiteWebFE.SearchGame.Size = UDim2.new(0, 335, 0, 15)
+WhiteWebFE.SearchGame.Font = Enum.Font.Highway
+WhiteWebFE.SearchGame.PlaceholderText = "Search"
+WhiteWebFE.SearchGame.Text = ""
+WhiteWebFE.SearchGame.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.SearchGame.TextSize = 20.000
+
+WhiteWebFE.UICorner_313.Parent = WhiteWebFE.SearchGame
+
+WhiteWebFE.openSearch.Name = "openSearch"
+WhiteWebFE.openSearch.Parent = WhiteWebFE.SearchGame
+WhiteWebFE.openSearch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.openSearch.BackgroundTransparency = 1.000
+WhiteWebFE.openSearch.Position = UDim2.new(0.462370723, 0, -1.67751217, 0)
+WhiteWebFE.openSearch.Rotation = 90.000
+WhiteWebFE.openSearch.Size = UDim2.new(0, 25, 0, 25)
+WhiteWebFE.openSearch.ZIndex = 2
+WhiteWebFE.openSearch.Image = "rbxassetid://54479709"
 
 return WhiteWebFE
