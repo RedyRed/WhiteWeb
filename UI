@@ -249,6 +249,8 @@ local WhiteWebFE = {
 	SearchGame = Instance.new("TextBox"),
 	UICorner_313 = Instance.new("UICorner"),
 	openSearch = Instance.new("ImageButton"),
+	
+	cmdl = Instance.new("TextLabel"),
 }
 
 WhiteWebFE.WhiteWebFE.Name = "WhiteWebFE"
@@ -1418,7 +1420,17 @@ WhiteWebFE.UIListLayout_7.Padding = UDim.new(0, 5)
 
 WhiteWebFE.UIPadding_9.Parent = WhiteWebFE.CmdConsole
 WhiteWebFE.UIPadding_9.PaddingLeft = UDim.new(0, 3)
-WhiteWebFE.UIPadding_9.PaddingTop = UDim.new(0, 5)
+
+WhiteWebFE.cmdl.Name = "cmdl"
+WhiteWebFE.cmdl.Parent = WhiteWebFE.CommandBar
+WhiteWebFE.cmdl.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.cmdl.BorderSizePixel = 0
+WhiteWebFE.cmdl.Position = UDim2.new(0.539726019, 0, -0.000301805732, 0)
+WhiteWebFE.cmdl.Size = UDim2.new(0, 164, 0, 20)
+WhiteWebFE.cmdl.Font = Enum.Font.SourceSans
+WhiteWebFE.cmdl.Text = "Command Logs"
+WhiteWebFE.cmdl.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.cmdl.TextSize = 14.000
 
 WhiteWebFE.ratata.Name = "ratata"
 WhiteWebFE.ratata.Parent = WhiteWebFE.CommandBar
