@@ -204,7 +204,6 @@ local WhiteWebFE = {
 	UIListLayout_11 = Instance.new("UIListLayout"),
 	UIPadding_15 = Instance.new("UIPadding"),
 	yes_4 = Instance.new("TextLabel"),
-	themestatus = Instance.new("TextLabel"),
 	currentTheme = Instance.new("TextLabel"),
 	needrestart = Instance.new("TextLabel"),
 	sett = Instance.new("Frame"),
@@ -853,7 +852,7 @@ WhiteWebFE.ExampleThemeButton.TextScaled = true
 WhiteWebFE.ExampleThemeButton.TextSize = 14.000
 WhiteWebFE.ExampleThemeButton.TextWrapped = true
 
-WhiteWebFE.UICorner_5.CornerRadius = UDim.new(0, 10)
+WhiteWebFE.UICorner_5.CornerRadius = UDim.new(0, 20)
 WhiteWebFE.UICorner_5.Parent = WhiteWebFE.ExampleThemeButton
 
 WhiteWebFE.Click.Name = "Click"
@@ -2054,17 +2053,6 @@ WhiteWebFE.UIGridLayout_7.CellSize = UDim2.new(0, 110, 0, 30)
 
 WhiteWebFE.UIPadding_16.Parent = WhiteWebFE.sett
 WhiteWebFE.UIPadding_16.PaddingLeft = UDim.new(0, 10)
-
-WhiteWebFE.themestatus_2.Name = "themestatus"
-WhiteWebFE.themestatus_2.Parent = WhiteWebFE.Themes
-WhiteWebFE.themestatus_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.themestatus_2.BackgroundTransparency = 1.000
-WhiteWebFE.themestatus_2.Position = UDim2.new(0.306010932, 0, 0.236630738, 0)
-WhiteWebFE.themestatus_2.Size = UDim2.new(0, 142, 0, 29)
-WhiteWebFE.themestatus_2.Font = Enum.Font.SourceSans
-WhiteWebFE.themestatus_2.Text = "Work In Process"
-WhiteWebFE.themestatus_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.themestatus_2.TextSize = 20.000
 
 WhiteWebFE.ThemeBackground.Name = "ThemeBackground"
 WhiteWebFE.ThemeBackground.Parent = WhiteWebFE.Sections
