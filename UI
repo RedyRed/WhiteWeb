@@ -2004,17 +2004,6 @@ WhiteWebFE.yes_4.Text = "Themes"
 WhiteWebFE.yes_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.yes_4.TextSize = 14.000
 
-WhiteWebFE.themestatus.Name = "themestatus"
-WhiteWebFE.themestatus.Parent = WhiteWebFE.Themes
-WhiteWebFE.themestatus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.themestatus.BackgroundTransparency = 1.000
-WhiteWebFE.themestatus.Position = UDim2.new(0, 0, 0.543859661, 0)
-WhiteWebFE.themestatus.Size = UDim2.new(0, 142, 0, 29)
-WhiteWebFE.themestatus.Font = Enum.Font.SourceSans
-WhiteWebFE.themestatus.Text = "Current Theme:"
-WhiteWebFE.themestatus.TextColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.themestatus.TextSize = 20.000
-
 WhiteWebFE.currentTheme.Name = "currentTheme"
 WhiteWebFE.currentTheme.Parent = WhiteWebFE.Themes
 WhiteWebFE.currentTheme.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
