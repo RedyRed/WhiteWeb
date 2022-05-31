@@ -2400,7 +2400,7 @@ WhiteWebFE.AddPlug.Text = ""
 WhiteWebFE.AddPlug.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.AddPlug.TextSize = 20.000
 
-WhiteWebFE.UICorner323.Parent = WhiteWebFE.AddPlug
+WhiteWebFE.UICorner232.Parent = WhiteWebFE.AddPlug
 
 WhiteWebFE.openAddPlug.Name = "openAddPlug"
 WhiteWebFE.openAddPlug.Parent = WhiteWebFE.AddPlug
