@@ -2389,13 +2389,13 @@ WhiteWebFE.openSearch.ZIndex = 2
 WhiteWebFE.openSearch.Image = "rbxassetid://54479709"
 
 WhiteWebFE.AddPlug.Name = "AddPlug"
-WhiteWebFE.AddPlug.Parent = WhiteWebFE.Scripts
+WhiteWebFE.AddPlug.Parent = WhiteWebFE.MoreScripts
 WhiteWebFE.AddPlug.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 WhiteWebFE.AddPlug.BorderSizePixel = 0
 WhiteWebFE.AddPlug.Position = UDim2.new(0.035, 0,1.005, 0)
 WhiteWebFE.AddPlug.Size = UDim2.new(0, 337, 0, 15)
 WhiteWebFE.AddPlug.Font = Enum.Font.Highway
-WhiteWebFE.AddPlug.PlaceholderText = "Add Plugin"
+WhiteWebFE.AddPlug.PlaceholderText = "Add / Remove Plugin"
 WhiteWebFE.AddPlug.Text = ""
 WhiteWebFE.AddPlug.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.AddPlug.TextSize = 20.000
