@@ -2420,6 +2420,8 @@ WhiteWebFE.openAddPlug.Size = UDim2.new(0, 25, 0, 25)
 WhiteWebFE.openAddPlug.ZIndex = 2
 WhiteWebFE.openAddPlug.Image = "rbxassetid://54479709"
 
+
+
 WhiteWebFE.LogsMain.Name = "LogsMain"
 WhiteWebFE.LogsMain.Parent = WhiteWebFE.WhiteWebFE
 WhiteWebFE.LogsMain.Active = true
@@ -2428,6 +2430,7 @@ WhiteWebFE.LogsMain.BackgroundTransparency = 1.000
 WhiteWebFE.LogsMain.BorderSizePixel = 0
 WhiteWebFE.LogsMain.Position = UDim2.new(0.284917057, 0, 0.486180574, 0)
 WhiteWebFE.LogsMain.Size = UDim2.new(0, 266, 0, 59)
+WhiteWebFE.LogsMain.Visible = false
 
 WhiteWebFE.LogsTopFrame.Name = "TopFrame"
 WhiteWebFE.LogsTopFrame.Parent = WhiteWebFE.LogsMain
