@@ -2432,6 +2432,7 @@ WhiteWebFE.LogsMain.Position = UDim2.new(0.284917057, 0, 0.486180574, 0)
 WhiteWebFE.LogsMain.Size = UDim2.new(0, 266, 0, 59)
 WhiteWebFE.LogsMain.Visible = false
 WhiteWebFE.LogsMain.Draggable = true
+WhiteWebFE.LogsMain.ZIndex = 1
 
 WhiteWebFE.LogsTopFrame.Name = "TopFrame"
 WhiteWebFE.LogsTopFrame.Parent = WhiteWebFE.LogsMain
