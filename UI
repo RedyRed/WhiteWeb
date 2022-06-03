@@ -2652,6 +2652,7 @@ WhiteWebFE.JLogsLog.Active = true
 WhiteWebFE.JLogsLog.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 WhiteWebFE.JLogsLog.BorderSizePixel = 0
 WhiteWebFE.JLogsLog.Size = UDim2.new(0, 240, 0, 71)
+WhiteWebFE.JLogsLog.Visible = false
 
 WhiteWebFE.ProfPic.Name = "ProfPic"
 WhiteWebFE.ProfPic.Parent = WhiteWebFE.JLogsLog
