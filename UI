@@ -2642,7 +2642,6 @@ WhiteWebFE.Logaas.Size = UDim2.new(0, 250, 0, 150)
 WhiteWebFE.Logaas.CanvasSize = UDim2.new(0, 0, 0, 0)
 WhiteWebFE.Logaas.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
 WhiteWebFE.Logaas.ScrollBarThickness = 4
-WhiteWebFE.Logaas.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.UIListLayout_23.Parent = WhiteWebFE.Logaas
 WhiteWebFE.UIListLayout_23.SortOrder = Enum.SortOrder.LayoutOrder
