@@ -2521,7 +2521,7 @@ WhiteWebFE.Logas.ScrollBarThickness = 4
 WhiteWebFE.Logas.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.CLogsLog.Name = "CLogsLog"
-WhiteWebFE.CLogsLog.Parent = WhiteWebFE.Logas
+WhiteWebFE.CLogsLog.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.CLogsLog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.CLogsLog.BackgroundTransparency = 1.000
 WhiteWebFE.CLogsLog.Size = UDim2.new(0, 251, 0, 17)
@@ -2649,7 +2649,7 @@ WhiteWebFE.UIListLayout_23.SortOrder = Enum.SortOrder.LayoutOrder
 WhiteWebFE.UIListLayout_23.Padding = UDim.new(0, 5)
 
 WhiteWebFE.JLogsLog.Name = "JLogsLog"
-WhiteWebFE.JLogsLog.Parent = WhiteWebFE.Logaas
+WhiteWebFE.JLogsLog.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.JLogsLog.Active = true
 WhiteWebFE.JLogsLog.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 WhiteWebFE.JLogsLog.BorderSizePixel = 0
