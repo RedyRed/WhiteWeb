@@ -26,8 +26,8 @@ logs[#logs+1] = {
     }
     logs[#logs+1] = {
         ['name'] = '1.4.0b',
-        ['updates'] = {},
-        ['added'] = {'Added new commands'},
+        ['updates'] = {'Made White Web's animations faster on default', 'Fixed ;incognito command', 'Made command bar Whitelist System non-premium', 'Minor bug fixes'},
+        ['added'] = {'Added new commands', 'Added Chat/Join Logs', 'Added commands list for the bottom command bar', 'Added Prison Life'},
         ['removed'] = {},
     }
 
