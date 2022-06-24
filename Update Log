@@ -30,5 +30,11 @@ logs[#logs+1] = {
         ['added'] = {'Added new commands', 'Added Chat/Join Logs', 'Added commands list for the bottom command bar', 'Added Prison Life'},
         ['removed'] = {},
     }
+logs[#logs+1] = {
+        ['name'] = '1.5.0b',
+        ['updates'] = {'Made command bar Whitelist System non-premium (fixed)', 'Fixed player attaching related commands'},
+        ['added'] = {'Added commands', 'Added Oil Warfare Tycoon', 'Added be dead forever simulator'},
+        ['removed'] = {'Removed commands'},
+    }
 
 return logs
