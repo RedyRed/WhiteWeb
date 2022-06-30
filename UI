@@ -208,7 +208,7 @@ local WhiteWebFE = {
 	sett = Instance.new("Frame"),
 	UIGridLayout_7 = Instance.new("UIGridLayout"),
 	UIPadding_16 = Instance.new("UIPadding"),
-	themestatus_2 = Instance.new("TextLabel"),
+	themestatus = Instance.new("TextLabel"),
 	ThemeBackground = Instance.new("ImageLabel"),
 	UICorner_19 = Instance.new("UICorner"),
 
@@ -2101,6 +2101,17 @@ WhiteWebFE.UIGridLayout_7.CellSize = UDim2.new(0, 110, 0, 30)
 
 WhiteWebFE.UIPadding_16.Parent = WhiteWebFE.sett
 WhiteWebFE.UIPadding_16.PaddingLeft = UDim.new(0, 10)
+
+WhiteWebFE.themestatus.Name = "themestatus"
+WhiteWebFE.themestatus.Parent = WhiteWebFE.Themes
+WhiteWebFE.themestatus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.themestatus.BackgroundTransparency = 1.000
+WhiteWebFE.themestatus.Position = UDim2.new(0, 0, 0.543859661, 0)
+WhiteWebFE.themestatus.Size = UDim2.new(0, 142, 0, 29)
+WhiteWebFE.themestatus.Font = Enum.Font.SourceSans
+WhiteWebFE.themestatus.Text = "Current Theme:"
+WhiteWebFE.themestatus.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.themestatus.TextSize = 20.000
 
 WhiteWebFE.ThemeBackground.Name = "ThemeBackground"
 WhiteWebFE.ThemeBackground.Parent = WhiteWebFE.Sections
