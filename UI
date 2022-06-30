@@ -2591,7 +2591,7 @@ WhiteWebFE.CLogsLog.TextSize = 17.000
 WhiteWebFE.CLogsLog.TextWrapped = true
 WhiteWebFE.CLogsLog.Visible = false
 WhiteWebFE.CLogsLog.TextXAlignment = Enum.TextXAlignment.Left
-WhiteWebFE.AutomaticSize = Enum.AutomaticSize.Y
+WhiteWebFE.CLogsLog.AutomaticSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.gjgh.Name = "gjgh"
 WhiteWebFE.gjgh.Parent = WhiteWebFE.Logas
