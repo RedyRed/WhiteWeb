@@ -2576,6 +2576,7 @@ WhiteWebFE.CLogsLog.Text = ""
 WhiteWebFE.CLogsLog.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.CLogsLog.TextSize = 17.000
 WhiteWebFE.CLogsLog.TextWrapped = true
+WhiteWebFE.CLogsLog.Visible = false
 WhiteWebFE.CLogsLog.TextXAlignment = Enum.TextXAlignment.Left
 WhiteWebFE.AutomaticSize = Enum.AutomaticSize.Y
 
@@ -2963,6 +2964,7 @@ WhiteWebFE.DLogsLog.Text = ""
 WhiteWebFE.DLogsLog.TextColor3 = Color3.fromRGB(255, 187, 69)
 WhiteWebFE.DLogsLog.TextSize = 17.000
 WhiteWebFE.DLogsLog.TextWrapped = true
+WhiteWebFE.DLogsLog.Visible = false
 WhiteWebFE.DLogsLog.TextXAlignment = Enum.TextXAlignment.Left
 WhiteWebFE.DLogsLog.AutomaticSize = Enum.AutomaticSize.Y
 
@@ -3025,6 +3027,7 @@ WhiteWebFE.KLogsLog.Text = ""
 WhiteWebFE.KLogsLog.TextColor3 = Color3.fromRGB(255, 128, 130)
 WhiteWebFE.KLogsLog.TextSize = 17.000
 WhiteWebFE.KLogsLog.TextWrapped = true
+WhiteWebFE.KLogsLog.Visible = false
 WhiteWebFE.KLogsLog.TextXAlignment = Enum.TextXAlignment.Left
 WhiteWebFE.KLogsLog.AutomaticSize = Enum.AutomaticSize.Y
 
