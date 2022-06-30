@@ -2780,6 +2780,7 @@ WhiteWebFE.Options.Position = UDim2.new(0.0298507456, 0, 0.118852459, 0)
 WhiteWebFE.Options.Size = UDim2.new(0, 251, 0, 31)
 WhiteWebFE.Options.CanvasSize = UDim2.new(2, 0, 0, 0)
 WhiteWebFE.Options.ScrollBarThickness = 3
+WhiteWebFE.Options.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.hrhrgrgr.Name = "hrhrgrgr"
 WhiteWebFE.hrhrgrgr.Parent = WhiteWebFE.Options
