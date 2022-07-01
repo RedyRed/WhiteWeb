@@ -2663,7 +2663,7 @@ WhiteWebFE.Logaas.Size = UDim2.new(0, 250, 0, 138)
 WhiteWebFE.Logaas.CanvasSize = UDim2.new(0, 0, 0, 0)
 WhiteWebFE.Logaas.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
 WhiteWebFE.Logaas.ScrollBarThickness = 4
-WhiteWebFE.Logaas.AutomaticCanvasSize = Enum.AutomaticSize.Y
+--WhiteWebFE.Logaas.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.llalal.Name = "llalal"
 WhiteWebFE.llalal.Parent = WhiteWebFE.Logaas
@@ -2924,7 +2924,7 @@ WhiteWebFE.Logaaas.Size = UDim2.new(0, 251, 0, 138)
 WhiteWebFE.Logaaas.CanvasSize = UDim2.new(0, 0, 0, 0)
 WhiteWebFE.Logaaas.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
 WhiteWebFE.Logaaas.ScrollBarThickness = 4
-WhiteWebFE.Logaaas.AutomaticCanvasSize = Enum.AutomaticSize.Y
+--WhiteWebFE.Logaaas.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.rwagra.Name = "rwagra"
 WhiteWebFE.rwagra.Parent = WhiteWebFE.Logaaas
