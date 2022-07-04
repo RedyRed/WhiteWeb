@@ -1613,6 +1613,7 @@ WhiteWebFE.ScriptHub_2.Position = UDim2.new(0.00286848564, 0, 0.0759887695, 0)
 WhiteWebFE.ScriptHub_2.Size = UDim2.new(0, 364, 0, 153)
 WhiteWebFE.ScriptHub_2.CanvasSize = UDim2.new(0, 0, 0, 0)
 WhiteWebFE.ScriptHub_2.ScrollBarThickness = 4
+WhiteWebFE.ScriptHub_2.ScrollingEnabled = true
 
 WhiteWebFE.UIPadding_11.Parent = WhiteWebFE.ScriptHub_2
 WhiteWebFE.UIPadding_11.PaddingBottom = UDim.new(0, 30)
