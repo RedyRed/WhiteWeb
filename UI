@@ -2480,6 +2480,7 @@ WhiteWebFE.LogsTopFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
 WhiteWebFE.LogsTopFrame.BorderSizePixel = 0
 WhiteWebFE.LogsTopFrame.Position = UDim2.new(-0.00924357399, 0, 0.181217, 0)
 WhiteWebFE.LogsTopFrame.Size = UDim2.new(0, 268, 0, 13)
+WhiteWebFE.LogsTopFrame.ZIndex = 2
 
 WhiteWebFE.LogsRoundifyTopFrame.Name = "LogsRoundifyTopFrame"
 WhiteWebFE.LogsRoundifyTopFrame.Parent = WhiteWebFE.LogsTopFrame
@@ -2493,6 +2494,7 @@ WhiteWebFE.LogsRoundifyTopFrame.ImageColor3 = Color3.fromRGB(36, 36, 36)
 WhiteWebFE.LogsRoundifyTopFrame.ScaleType = Enum.ScaleType.Slice
 WhiteWebFE.LogsRoundifyTopFrame.SliceCenter = Rect.new(100, 100, 100, 100)
 WhiteWebFE.LogsRoundifyTopFrame.SliceScale = 0.120
+WhiteWebFE.LogsRoundifyTopFrame.ZIndex = 2
 
 WhiteWebFE.LogsSUM.Name = "LogsSUM"
 WhiteWebFE.LogsSUM.Parent = WhiteWebFE.LogsRoundifyTopFrame
@@ -2506,6 +2508,7 @@ WhiteWebFE.LogsSUM.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.LogsSUM.TextScaled = true
 WhiteWebFE.LogsSUM.TextSize = 14.000
 WhiteWebFE.LogsSUM.TextWrapped = true
+WhiteWebFE.LogsSUM.ZIndex = 2
 
 WhiteWebFE.logslogo.Name = "logslogo"
 WhiteWebFE.logslogo.Parent = WhiteWebFE.LogsRoundifyTopFrame
@@ -2515,6 +2518,7 @@ WhiteWebFE.logslogo.Position = UDim2.new(0, 0, 0.0399999991, 0)
 WhiteWebFE.logslogo.Size = UDim2.new(0, 35, 0, 23)
 WhiteWebFE.logslogo.Image = "http://www.roblox.com/asset/?id=9655321061"
 WhiteWebFE.logslogo.ScaleType = Enum.ScaleType.Fit
+WhiteWebFE.logslogo.ZIndex = 2
 
 WhiteWebFE.LogsClose.Name = "LogsClose"
 WhiteWebFE.LogsClose.Parent = WhiteWebFE.LogsRoundifyTopFrame
@@ -2523,6 +2527,7 @@ WhiteWebFE.LogsClose.BackgroundTransparency = 1.000
 WhiteWebFE.LogsClose.Position = UDim2.new(0.899999917, 0, 0.199999988, 0)
 WhiteWebFE.LogsClose.Size = UDim2.new(0, 17, 0, 17)
 WhiteWebFE.LogsClose.Image = "rbxassetid://89960960"
+WhiteWebFE.LogsClose.ZIndex = 2
 
 WhiteWebFE.OnOff.Name = "OnOff"
 WhiteWebFE.OnOff.Parent = WhiteWebFE.LogsRoundifyTopFrame
@@ -2532,6 +2537,7 @@ WhiteWebFE.OnOff.Position = UDim2.new(0.802521527, 0, 0.199999988, 0)
 WhiteWebFE.OnOff.Size = UDim2.new(0, 17, 0, 17)
 WhiteWebFE.OnOff.Image = "rbxassetid://4613042355"
 WhiteWebFE.OnOff.ImageColor3 = Color3.fromRGB(0, 255, 85)
+WhiteWebFE.OnOff.ZIndex = 2
 
 WhiteWebFE.OnOffLabel.Name = "OnOffLabel"
 WhiteWebFE.OnOffLabel.Parent = WhiteWebFE.OnOff
@@ -2543,6 +2549,7 @@ WhiteWebFE.OnOffLabel.Font = Enum.Font.Highway
 WhiteWebFE.OnOffLabel.Text = "ON"
 WhiteWebFE.OnOffLabel.TextColor3 = Color3.fromRGB(0, 255, 85)
 WhiteWebFE.OnOffLabel.TextSize = 16.000
+WhiteWebFE.OnOffLabel.ZIndex = 2
 
 WhiteWebFE.LogsSections.Name = "LogsSections"
 WhiteWebFE.LogsSections.Parent = WhiteWebFE.LogsMain
@@ -2551,7 +2558,7 @@ WhiteWebFE.LogsSections.BackgroundTransparency = 1.000
 WhiteWebFE.LogsSections.ClipsDescendants = true
 WhiteWebFE.LogsSections.Position = UDim2.new(-0.00924361404, 0, -0.0391219817, 0)
 WhiteWebFE.LogsSections.Size = UDim2.new(0, 268, 0, 244)
-WhiteWebFE.LogsSections.ZIndex = 0
+WhiteWebFE.LogsSections.ZIndex = 1
 WhiteWebFE.LogsSections.Image = "rbxassetid://3570695787"
 WhiteWebFE.LogsSections.ImageColor3 = Color3.fromRGB(58, 58, 58)
 WhiteWebFE.LogsSections.ScaleType = Enum.ScaleType.Slice
