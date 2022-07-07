@@ -334,7 +334,6 @@ WhiteWebFE.Main.BackgroundTransparency = 1.000
 WhiteWebFE.Main.BorderSizePixel = 0
 WhiteWebFE.Main.Position = UDim2.new(0.164583534, 0, 0.546847582, 0)
 WhiteWebFE.Main.Size = UDim2.new(0, 389, 0, 57)
-WhiteWebFE.Main.Draggable = true
 
 WhiteWebFE.TopFrame2.Name = "TopFrame2"
 WhiteWebFE.TopFrame2.Parent = WhiteWebFE.Main
