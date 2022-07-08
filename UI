@@ -3244,7 +3244,7 @@ WhiteWebFE.MainInfo.ScrollBarThickness = 4
 WhiteWebFE.MainInfo.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.ServerInfo.Name = "ServerInfo"
-WhiteWebFE.ServerInfo.Parent = WhiteWebFE.WhiteWebFE.MainInfo
+WhiteWebFE.ServerInfo.Parent = WhiteWebFE.MainInfo
 WhiteWebFE.ServerInfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.ServerInfo.BackgroundTransparency = 1.000
 WhiteWebFE.ServerInfo.Position = UDim2.new(0, 0, -0.974025965, 0)
