@@ -3236,11 +3236,12 @@ WhiteWebFE.MainInfo.Parent = WhiteWebFE.Sections
 WhiteWebFE.MainInfo.Active = true
 WhiteWebFE.MainInfo.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 WhiteWebFE.MainInfo.BorderSizePixel = 0
-WhiteWebFE.MainInfo.Position = UDim2.new(0.0309999995, 0, 0.0949999988, 0)
+WhiteWebFE.MainInfo.Position = UDim2.new(0.031, 0,0.095, 0)
 WhiteWebFE.MainInfo.Size = UDim2.new(0, 365, 0, 163)
 WhiteWebFE.MainInfo.CanvasPosition = Vector2.new(0, 309.000031)
 WhiteWebFE.MainInfo.CanvasSize = UDim2.new(0, 0, 2, 70)
 WhiteWebFE.MainInfo.ScrollBarThickness = 4
+WhiteWebFE.MainInfo.Visible = false
 WhiteWebFE.MainInfo.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.ServerInfo.Name = "ServerInfo"
@@ -3281,6 +3282,7 @@ WhiteWebFE.gamename.Text = "Place Name: Loading..."
 WhiteWebFE.gamename.TextColor3 = Color3.fromRGB(255, 193, 194)
 WhiteWebFE.gamename.TextSize = 20.000
 WhiteWebFE.gamename.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.gamename.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE._1.Name = "1"
 WhiteWebFE._1.Parent = WhiteWebFE.ServerInfo
@@ -3300,6 +3302,7 @@ WhiteWebFE.plcid.Text = "Place Id: Loading..."
 WhiteWebFE.plcid.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.plcid.TextSize = 20.000
 WhiteWebFE.plcid.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.plcid.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE.ghfh.Name = "ghfh"
 WhiteWebFE.ghfh.Parent = WhiteWebFE._1
@@ -3346,6 +3349,7 @@ WhiteWebFE.gameid.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.gameid.TextSize = 20.000
 WhiteWebFE.gameid.TextWrapped = true
 WhiteWebFE.gameid.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.gameid.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE.copys_2.Name = "copys"
 WhiteWebFE.copys_2.Parent = WhiteWebFE._2
@@ -3378,6 +3382,7 @@ WhiteWebFE.jobid.TextScaled = true
 WhiteWebFE.jobid.TextSize = 20.000
 WhiteWebFE.jobid.TextWrapped = true
 WhiteWebFE.jobid.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.jobid.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE._5hl5hl5.Name = "5hl5hl5"
 WhiteWebFE._5hl5hl5.Parent = WhiteWebFE._3
@@ -3408,6 +3413,7 @@ WhiteWebFE.genre.Text = "Genre: Loading..."
 WhiteWebFE.genre.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.genre.TextSize = 20.000
 WhiteWebFE.genre.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.genre.AutomaticSize = Enum.AutomaticSize.Y
 
 WhiteWebFE._53i59g0.Name = "53i59g0"
 WhiteWebFE._53i59g0.Parent = WhiteWebFE.MainInfo
@@ -3464,6 +3470,7 @@ WhiteWebFE.plrname.Text = "Player Name: Loading..."
 WhiteWebFE.plrname.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.plrname.TextSize = 20.000
 WhiteWebFE.plrname.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.plrname.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE.gjugu5.Name = "gjugu5"
 WhiteWebFE.gjugu5.Parent = WhiteWebFE.l1
@@ -3510,6 +3517,7 @@ WhiteWebFE.plrid.Text = "Player Id: Loading..."
 WhiteWebFE.plrid.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.plrid.TextSize = 20.000
 WhiteWebFE.plrid.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.plrid.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE.copys_5.Name = "copys"
 WhiteWebFE.copys_5.Parent = WhiteWebFE.l2
@@ -3533,6 +3541,7 @@ WhiteWebFE.plrage.Text = "Player Age: Loading..."
 WhiteWebFE.plrage.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.plrage.TextSize = 20.000
 WhiteWebFE.plrage.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.plrage.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE.plrcount.Name = "plrcount"
 WhiteWebFE.plrcount.Parent = WhiteWebFE.PlayerInfo
@@ -3545,6 +3554,7 @@ WhiteWebFE.plrcount.Text = "Player Count: 0 / 50"
 WhiteWebFE.plrcount.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.plrcount.TextSize = 20.000
 WhiteWebFE.plrcount.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.plrcount.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE.GuiInfo.Name = "GuiInfo"
 WhiteWebFE.GuiInfo.Parent = WhiteWebFE.MainInfo
@@ -3584,6 +3594,7 @@ WhiteWebFE.GuiVers.Text = "Version: nil"
 WhiteWebFE.GuiVers.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.GuiVers.TextSize = 20.000
 WhiteWebFE.GuiVers.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.GuiVers.AutomaticSize = Enum.AutomaticSize.X
 
 WhiteWebFE.GuiRunTime.Name = "GuiRunTime"
 WhiteWebFE.GuiRunTime.Parent = WhiteWebFE.GuiInfo
@@ -3595,5 +3606,6 @@ WhiteWebFE.GuiRunTime.Text = "Run Time: 0 sec"
 WhiteWebFE.GuiRunTime.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.GuiRunTime.TextSize = 20.000
 WhiteWebFE.GuiRunTime.TextXAlignment = Enum.TextXAlignment.Left
+WhiteWebFE.GuiRunTime.AutomaticSize = Enum.AutomaticSize.X
 
 return WhiteWebFE
