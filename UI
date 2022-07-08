@@ -321,6 +321,53 @@ local WhiteWebFE = {
 	GjlLogsLog = Instance.new("TextLabel"),
 	asdasdas_6 = Instance.new("TextLabel"),
 	SaveCToTxtB_3 = Instance.new("TextButton"),
+	
+	MainInfo = Instance.new("ScrollingFrame"),
+	ServerInfo = Instance.new("Frame"),
+	lggotot = Instance.new("UIGridLayout"),
+	ogj5h5 = Instance.new("UIPadding"),
+	eded = Instance.new("TextLabel"),
+	gamename = Instance.new("TextLabel"),
+	_1 = Instance.new("Frame"),
+	plcid = Instance.new("TextLabel"),
+	ghfh = Instance.new("UIListLayout"),
+	aaa = Instance.new("UIPadding"),
+	copys = Instance.new("ImageButton"),
+	_2 = Instance.new("Frame"),
+	g5g5jg5j = Instance.new("UIListLayout"),
+	_53gj53 = Instance.new("UIPadding"),
+	gameid = Instance.new("TextLabel"),
+	copys_2 = Instance.new("ImageButton"),
+	_3 = Instance.new("Frame"),
+	jobid = Instance.new("TextLabel"),
+	_5hl5hl5 = Instance.new("UIListLayout"),
+	_5hk3hj5f = Instance.new("UIPadding"),
+	copys_3 = Instance.new("ImageButton"),
+	genre = Instance.new("TextLabel"),
+	_53i59g0 = Instance.new("UIListLayout"),
+	lglglg = Instance.new("UIPadding"),
+	PlayerInfo = Instance.new("Frame"),
+	mmfnfgh = Instance.new("UIPadding"),
+	lhlhlhk = Instance.new("UIGridLayout"),
+	e = Instance.new("TextLabel"),
+	l1 = Instance.new("Frame"),
+	plrname = Instance.new("TextLabel"),
+	gjugu5 = Instance.new("UIListLayout"),
+	gk53ug5u3 = Instance.new("UIPadding"),
+	copys_4 = Instance.new("ImageButton"),
+	l2 = Instance.new("Frame"),
+	o3fo4of3 = Instance.new("UIPadding"),
+	g54g5nj34 = Instance.new("UIListLayout"),
+	plrid = Instance.new("TextLabel"),
+	copys_5 = Instance.new("ImageButton"),
+	plrage = Instance.new("TextLabel"),
+	plrcount = Instance.new("TextLabel"),
+	GuiInfo = Instance.new("Frame"),
+	lfllflf = Instance.new("UIGridLayout"),
+	_4igi5 = Instance.new("UIPadding"),
+	llalaal = Instance.new("TextLabel"),
+	GuiVers = Instance.new("TextLabel"),
+	GuiRunTime = Instance.new("TextLabel"),
 }
 
 WhiteWebFE.WhiteWebFE.Name = "WhiteWebFE"
@@ -3182,5 +3229,371 @@ WhiteWebFE.SaveCToTxtB_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.SaveCToTxtB_3.TextScaled = true
 WhiteWebFE.SaveCToTxtB_3.TextSize = 25.000
 WhiteWebFE.SaveCToTxtB_3.TextWrapped = true
+
+
+WhiteWebFE.MainInfo.Name = "MainInfo"
+WhiteWebFE.MainInfo.Parent = WhiteWebFE.Sections
+WhiteWebFE.MainInfo.Active = true
+WhiteWebFE.MainInfo.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+WhiteWebFE.MainInfo.BorderSizePixel = 0
+WhiteWebFE.MainInfo.Position = UDim2.new(0.0309999995, 0, 0.0949999988, 0)
+WhiteWebFE.MainInfo.Size = UDim2.new(0, 365, 0, 163)
+WhiteWebFE.MainInfo.CanvasPosition = Vector2.new(0, 309.000031)
+WhiteWebFE.MainInfo.CanvasSize = UDim2.new(0, 0, 2, 70)
+WhiteWebFE.MainInfo.ScrollBarThickness = 4
+WhiteWebFE.MainInfo.AutomaticCanvasSize = Enum.AutomaticSize.Y
+
+WhiteWebFE.ServerInfo.Name = "ServerInfo"
+WhiteWebFE.ServerInfo.Parent = WhiteWebFE.WhiteWebFE.MainInfo
+WhiteWebFE.ServerInfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.ServerInfo.BackgroundTransparency = 1.000
+WhiteWebFE.ServerInfo.Position = UDim2.new(0, 0, -0.974025965, 0)
+WhiteWebFE.ServerInfo.Size = UDim2.new(0, 352, 0, 205)
+
+WhiteWebFE.lggotot.Name = "lggotot"
+WhiteWebFE.lggotot.Parent = WhiteWebFE.ServerInfo
+WhiteWebFE.lggotot.SortOrder = Enum.SortOrder.LayoutOrder
+WhiteWebFE.lggotot.CellPadding = UDim2.new(0, 0, 0, 5)
+WhiteWebFE.lggotot.CellSize = UDim2.new(0, 356, 0, 25)
+
+WhiteWebFE.ogj5h5.Name = "ogj5h5"
+WhiteWebFE.ogj5h5.Parent = WhiteWebFE.ServerInfo
+
+WhiteWebFE.eded.Name = ",e,d,ed"
+WhiteWebFE.eded.Parent = WhiteWebFE.ServerInfo
+WhiteWebFE.eded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.eded.BackgroundTransparency = 1.000
+WhiteWebFE.eded.Size = UDim2.new(0, 356, 0, 25)
+WhiteWebFE.eded.Font = Enum.Font.Highway
+WhiteWebFE.eded.Text = "Server Info"
+WhiteWebFE.eded.TextColor3 = Color3.fromRGB(152, 224, 255)
+WhiteWebFE.eded.TextScaled = true
+WhiteWebFE.eded.TextSize = 14.000
+WhiteWebFE.eded.TextWrapped = true
+
+WhiteWebFE.gamename.Name = "gamename"
+WhiteWebFE.gamename.Parent = WhiteWebFE.ServerInfo
+WhiteWebFE.gamename.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.gamename.BackgroundTransparency = 1.000
+WhiteWebFE.gamename.Size = UDim2.new(0, 135, 0, 29)
+WhiteWebFE.gamename.Font = Enum.Font.SourceSansBold
+WhiteWebFE.gamename.Text = "Place Name: Loading..."
+WhiteWebFE.gamename.TextColor3 = Color3.fromRGB(255, 193, 194)
+WhiteWebFE.gamename.TextSize = 20.000
+WhiteWebFE.gamename.TextXAlignment = Enum.TextXAlignment.Left
+
+WhiteWebFE._1.Name = "1"
+WhiteWebFE._1.Parent = WhiteWebFE.ServerInfo
+WhiteWebFE._1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE._1.BackgroundTransparency = 1.000
+WhiteWebFE._1.Position = UDim2.new(0.00599993533, 0, 0.0605969317, 0)
+WhiteWebFE._1.Size = UDim2.new(0, 203, 0, 29)
+
+WhiteWebFE.plcid.Name = "plcid"
+WhiteWebFE.plcid.Parent = WhiteWebFE._1
+WhiteWebFE.plcid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.plcid.BackgroundTransparency = 1.000
+WhiteWebFE.plcid.ClipsDescendants = true
+WhiteWebFE.plcid.Size = UDim2.new(0, 55, 0, 29)
+WhiteWebFE.plcid.Font = Enum.Font.SourceSansBold
+WhiteWebFE.plcid.Text = "Place Id: Loading..."
+WhiteWebFE.plcid.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.plcid.TextSize = 20.000
+WhiteWebFE.plcid.TextXAlignment = Enum.TextXAlignment.Left
+
+WhiteWebFE.ghfh.Name = "ghfh"
+WhiteWebFE.ghfh.Parent = WhiteWebFE._1
+WhiteWebFE.ghfh.FillDirection = Enum.FillDirection.Horizontal
+WhiteWebFE.ghfh.SortOrder = Enum.SortOrder.LayoutOrder
+
+WhiteWebFE.aaa.Name = "aaa"
+WhiteWebFE.aaa.Parent = WhiteWebFE._1
+
+WhiteWebFE.copys.Name = "copys"
+WhiteWebFE.copys.Parent = WhiteWebFE._1
+WhiteWebFE.copys.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.copys.BackgroundTransparency = 1.000
+WhiteWebFE.copys.BorderSizePixel = 0
+WhiteWebFE.copys.Position = UDim2.new(0.455357134, 0, 0, 0)
+WhiteWebFE.copys.Size = UDim2.new(0, 35, 0, 26)
+WhiteWebFE.copys.Image = "rbxassetid://3424796336"
+WhiteWebFE.copys.ScaleType = Enum.ScaleType.Fit
+WhiteWebFE.copys.SliceScale = 0.100
+
+WhiteWebFE._2.Name = "2"
+WhiteWebFE._2.Parent = WhiteWebFE.ServerInfo
+WhiteWebFE._2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE._2.BackgroundTransparency = 1.000
+WhiteWebFE._2.Position = UDim2.new(-0.00240342505, 0, 0.132682338, 0)
+WhiteWebFE._2.Size = UDim2.new(0, 203, 0, 29)
+
+WhiteWebFE.g5g5jg5j.Name = "g5g5jg5j"
+WhiteWebFE.g5g5jg5j.Parent = WhiteWebFE._2
+WhiteWebFE.g5g5jg5j.FillDirection = Enum.FillDirection.Horizontal
+WhiteWebFE.g5g5jg5j.SortOrder = Enum.SortOrder.LayoutOrder
+
+WhiteWebFE._53gj53.Name = "53gj53"
+WhiteWebFE._53gj53.Parent = WhiteWebFE._2
+
+WhiteWebFE.gameid.Name = "gameid"
+WhiteWebFE.gameid.Parent = WhiteWebFE._2
+WhiteWebFE.gameid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.gameid.BackgroundTransparency = 1.000
+WhiteWebFE.gameid.Size = UDim2.new(0, 135, 0, 29)
+WhiteWebFE.gameid.Font = Enum.Font.SourceSansBold
+WhiteWebFE.gameid.Text = "Game Id: Loading..."
+WhiteWebFE.gameid.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.gameid.TextSize = 20.000
+WhiteWebFE.gameid.TextWrapped = true
+WhiteWebFE.gameid.TextXAlignment = Enum.TextXAlignment.Left
+
+WhiteWebFE.copys_2.Name = "copys"
+WhiteWebFE.copys_2.Parent = WhiteWebFE._2
+WhiteWebFE.copys_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.copys_2.BackgroundTransparency = 1.000
+WhiteWebFE.copys_2.BorderSizePixel = 0
+WhiteWebFE.copys_2.Position = UDim2.new(0.455357134, 0, 0, 0)
+WhiteWebFE.copys_2.Size = UDim2.new(0, 35, 0, 26)
+WhiteWebFE.copys_2.Image = "rbxassetid://3424796336"
+WhiteWebFE.copys_2.ScaleType = Enum.ScaleType.Fit
+WhiteWebFE.copys_2.SliceScale = 0.100
+
+WhiteWebFE._3.Name = "3"
+WhiteWebFE._3.Parent = WhiteWebFE.ServerInfo
+WhiteWebFE._3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE._3.BackgroundTransparency = 1.000
+WhiteWebFE._3.Position = UDim2.new(0.00599993533, 0, 0.0605969317, 0)
+WhiteWebFE._3.Size = UDim2.new(0, 203, 0, 29)
+
+WhiteWebFE.jobid.Name = "jobid"
+WhiteWebFE.jobid.Parent = WhiteWebFE._3
+WhiteWebFE.jobid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.jobid.BackgroundTransparency = 1.000
+WhiteWebFE.jobid.ClipsDescendants = true
+WhiteWebFE.jobid.Size = UDim2.new(0, 55, 0, 29)
+WhiteWebFE.jobid.Font = Enum.Font.SourceSansBold
+WhiteWebFE.jobid.Text = "Job Id: Loading..."
+WhiteWebFE.jobid.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.jobid.TextScaled = true
+WhiteWebFE.jobid.TextSize = 20.000
+WhiteWebFE.jobid.TextWrapped = true
+WhiteWebFE.jobid.TextXAlignment = Enum.TextXAlignment.Left
+
+WhiteWebFE._5hl5hl5.Name = "5hl5hl5"
+WhiteWebFE._5hl5hl5.Parent = WhiteWebFE._3
+WhiteWebFE._5hl5hl5.FillDirection = Enum.FillDirection.Horizontal
+WhiteWebFE._5hl5hl5.SortOrder = Enum.SortOrder.LayoutOrder
+
+WhiteWebFE._5hk3hj5f.Name = "5hk3hj5f"
+WhiteWebFE._5hk3hj5f.Parent = WhiteWebFE._3
+
+WhiteWebFE.copys_3.Name = "copys"
+WhiteWebFE.copys_3.Parent = WhiteWebFE._3
+WhiteWebFE.copys_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.copys_3.BackgroundTransparency = 1.000
+WhiteWebFE.copys_3.BorderSizePixel = 0
+WhiteWebFE.copys_3.Position = UDim2.new(0.455357134, 0, 0, 0)
+WhiteWebFE.copys_3.Size = UDim2.new(0, 35, 0, 26)
+WhiteWebFE.copys_3.Image = "rbxassetid://3424796336"
+WhiteWebFE.copys_3.ScaleType = Enum.ScaleType.Fit
+WhiteWebFE.copys_3.SliceScale = 0.100
+
+WhiteWebFE.genre.Name = "genre"
+WhiteWebFE.genre.Parent = WhiteWebFE.ServerInfo
+WhiteWebFE.genre.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.genre.BackgroundTransparency = 1.000
+WhiteWebFE.genre.Size = UDim2.new(0, 135, 0, 29)
+WhiteWebFE.genre.Font = Enum.Font.SourceSansBold
+WhiteWebFE.genre.Text = "Genre: Loading..."
+WhiteWebFE.genre.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.genre.TextSize = 20.000
+WhiteWebFE.genre.TextXAlignment = Enum.TextXAlignment.Left
+
+WhiteWebFE._53i59g0.Name = "53i59g0"
+WhiteWebFE._53i59g0.Parent = WhiteWebFE.MainInfo
+WhiteWebFE._53i59g0.SortOrder = Enum.SortOrder.LayoutOrder
+WhiteWebFE._53i59g0.Padding = UDim.new(0, 5)
+
+WhiteWebFE.lglglg.Name = "lglglg"
+WhiteWebFE.lglglg.Parent = WhiteWebFE.MainInfo
+
+WhiteWebFE.PlayerInfo.Name = "PlayerInfo"
+WhiteWebFE.PlayerInfo.Parent = WhiteWebFE.MainInfo
+WhiteWebFE.PlayerInfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.PlayerInfo.BackgroundTransparency = 1.000
+WhiteWebFE.PlayerInfo.Position = UDim2.new(0, 0, -0.616883099, 0)
+WhiteWebFE.PlayerInfo.Size = UDim2.new(0, 352, 0, 169)
+
+WhiteWebFE.mmfnfgh.Name = "mmfnfgh"
+WhiteWebFE.mmfnfgh.Parent = WhiteWebFE.PlayerInfo
+
+WhiteWebFE.lhlhlhk.Name = "lhlhlhk"
+WhiteWebFE.lhlhlhk.Parent = WhiteWebFE.PlayerInfo
+WhiteWebFE.lhlhlhk.SortOrder = Enum.SortOrder.LayoutOrder
+WhiteWebFE.lhlhlhk.CellPadding = UDim2.new(0, 0, 0, 5)
+WhiteWebFE.lhlhlhk.CellSize = UDim2.new(0, 356, 0, 25)
+
+WhiteWebFE.e.Name = "...e"
+WhiteWebFE.e.Parent = WhiteWebFE.PlayerInfo
+WhiteWebFE.e.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.e.BackgroundTransparency = 1.000
+WhiteWebFE.e.Position = UDim2.new(0, 0, 0.203999996, 0)
+WhiteWebFE.e.Size = UDim2.new(0, 356, 0, 25)
+WhiteWebFE.e.Font = Enum.Font.Highway
+WhiteWebFE.e.Text = "Player Info"
+WhiteWebFE.e.TextColor3 = Color3.fromRGB(152, 224, 255)
+WhiteWebFE.e.TextScaled = true
+WhiteWebFE.e.TextSize = 14.000
+WhiteWebFE.e.TextWrapped = true
+
+WhiteWebFE.l1.Name = "l1"
+WhiteWebFE.l1.Parent = WhiteWebFE.PlayerInfo
+WhiteWebFE.l1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.l1.BackgroundTransparency = 1.000
+WhiteWebFE.l1.Position = UDim2.new(0.00406162487, 0, 0.288055241, 0)
+WhiteWebFE.l1.Size = UDim2.new(0, 133, 0, 29)
+
+WhiteWebFE.plrname.Name = "plrname"
+WhiteWebFE.plrname.Parent = WhiteWebFE.l1
+WhiteWebFE.plrname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.plrname.BackgroundTransparency = 1.000
+WhiteWebFE.plrname.ClipsDescendants = true
+WhiteWebFE.plrname.Size = UDim2.new(0, 55, 0, 29)
+WhiteWebFE.plrname.Font = Enum.Font.SourceSansBold
+WhiteWebFE.plrname.Text = "Player Name: Loading..."
+WhiteWebFE.plrname.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.plrname.TextSize = 20.000
+WhiteWebFE.plrname.TextXAlignment = Enum.TextXAlignment.Left
+
+WhiteWebFE.gjugu5.Name = "gjugu5"
+WhiteWebFE.gjugu5.Parent = WhiteWebFE.l1
+WhiteWebFE.gjugu5.FillDirection = Enum.FillDirection.Horizontal
+WhiteWebFE.gjugu5.SortOrder = Enum.SortOrder.LayoutOrder
+
+WhiteWebFE.gk53ug5u3.Name = "gk53ug5u3"
+WhiteWebFE.gk53ug5u3.Parent = WhiteWebFE.l1
+
+WhiteWebFE.copys_4.Name = "copys"
+WhiteWebFE.copys_4.Parent = WhiteWebFE.l1
+WhiteWebFE.copys_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.copys_4.BackgroundTransparency = 1.000
+WhiteWebFE.copys_4.BorderSizePixel = 0
+WhiteWebFE.copys_4.Position = UDim2.new(0.455357134, 0, 0, 0)
+WhiteWebFE.copys_4.Size = UDim2.new(0, 35, 0, 26)
+WhiteWebFE.copys_4.Image = "rbxassetid://3424796336"
+WhiteWebFE.copys_4.ScaleType = Enum.ScaleType.Fit
+WhiteWebFE.copys_4.SliceScale = 0.100
+
+WhiteWebFE.l2.Name = "l2"
+WhiteWebFE.l2.Parent = WhiteWebFE.PlayerInfo
+WhiteWebFE.l2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.l2.BackgroundTransparency = 1.000
+WhiteWebFE.l2.Position = UDim2.new(0.00406162487, 0, 0.288055241, 0)
+WhiteWebFE.l2.Size = UDim2.new(0, 133, 0, 29)
+
+WhiteWebFE.o3fo4of3.Name = "o3fo4of3"
+WhiteWebFE.o3fo4of3.Parent = WhiteWebFE.l2
+
+WhiteWebFE.g54g5nj34.Name = "g54g5nj34"
+WhiteWebFE.g54g5nj34.Parent = WhiteWebFE.l2
+WhiteWebFE.g54g5nj34.FillDirection = Enum.FillDirection.Horizontal
+WhiteWebFE.g54g5nj34.SortOrder = Enum.SortOrder.LayoutOrder
+
+WhiteWebFE.plrid.Name = "plrid"
+WhiteWebFE.plrid.Parent = WhiteWebFE.l2
+WhiteWebFE.plrid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.plrid.BackgroundTransparency = 1.000
+WhiteWebFE.plrid.ClipsDescendants = true
+WhiteWebFE.plrid.Size = UDim2.new(0, 55, 0, 29)
+WhiteWebFE.plrid.Font = Enum.Font.SourceSansBold
+WhiteWebFE.plrid.Text = "Player Id: Loading..."
+WhiteWebFE.plrid.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.plrid.TextSize = 20.000
+WhiteWebFE.plrid.TextXAlignment = Enum.TextXAlignment.Left
+
+WhiteWebFE.copys_5.Name = "copys"
+WhiteWebFE.copys_5.Parent = WhiteWebFE.l2
+WhiteWebFE.copys_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.copys_5.BackgroundTransparency = 1.000
+WhiteWebFE.copys_5.BorderSizePixel = 0
+WhiteWebFE.copys_5.Position = UDim2.new(0.455357134, 0, 0, 0)
+WhiteWebFE.copys_5.Size = UDim2.new(0, 35, 0, 26)
+WhiteWebFE.copys_5.Image = "rbxassetid://3424796336"
+WhiteWebFE.copys_5.ScaleType = Enum.ScaleType.Fit
+WhiteWebFE.copys_5.SliceScale = 0.100
+
+WhiteWebFE.plrage.Name = "plrage"
+WhiteWebFE.plrage.Parent = WhiteWebFE.PlayerInfo
+WhiteWebFE.plrage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.plrage.BackgroundTransparency = 1.000
+WhiteWebFE.plrage.ClipsDescendants = true
+WhiteWebFE.plrage.Size = UDim2.new(0, 55, 0, 29)
+WhiteWebFE.plrage.Font = Enum.Font.SourceSansBold
+WhiteWebFE.plrage.Text = "Player Age: Loading..."
+WhiteWebFE.plrage.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.plrage.TextSize = 20.000
+WhiteWebFE.plrage.TextXAlignment = Enum.TextXAlignment.Left
+
+WhiteWebFE.plrcount.Name = "plrcount"
+WhiteWebFE.plrcount.Parent = WhiteWebFE.PlayerInfo
+WhiteWebFE.plrcount.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.plrcount.BackgroundTransparency = 1.000
+WhiteWebFE.plrcount.ClipsDescendants = true
+WhiteWebFE.plrcount.Size = UDim2.new(0, 55, 0, 29)
+WhiteWebFE.plrcount.Font = Enum.Font.SourceSansBold
+WhiteWebFE.plrcount.Text = "Player Count: 0 / 50"
+WhiteWebFE.plrcount.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.plrcount.TextSize = 20.000
+WhiteWebFE.plrcount.TextXAlignment = Enum.TextXAlignment.Left
+
+WhiteWebFE.GuiInfo.Name = "GuiInfo"
+WhiteWebFE.GuiInfo.Parent = WhiteWebFE.MainInfo
+WhiteWebFE.GuiInfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.GuiInfo.BackgroundTransparency = 1.000
+WhiteWebFE.GuiInfo.Size = UDim2.new(0, 352, 0, 107)
+
+WhiteWebFE.lfllflf.Name = "lfllflf"
+WhiteWebFE.lfllflf.Parent = WhiteWebFE.GuiInfo
+WhiteWebFE.lfllflf.SortOrder = Enum.SortOrder.LayoutOrder
+WhiteWebFE.lfllflf.CellPadding = UDim2.new(0, 0, 0, 5)
+WhiteWebFE.lfllflf.CellSize = UDim2.new(0, 356, 0, 25)
+
+WhiteWebFE._4igi5.Name = "4igi5"
+WhiteWebFE._4igi5.Parent = WhiteWebFE.GuiInfo
+
+WhiteWebFE.llalaal.Name = "llalaal"
+WhiteWebFE.llalaal.Parent = WhiteWebFE.GuiInfo
+WhiteWebFE.llalaal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.llalaal.BackgroundTransparency = 1.000
+WhiteWebFE.llalaal.Size = UDim2.new(0, 356, 0, 25)
+WhiteWebFE.llalaal.Font = Enum.Font.Highway
+WhiteWebFE.llalaal.Text = "GUI Info"
+WhiteWebFE.llalaal.TextColor3 = Color3.fromRGB(152, 224, 255)
+WhiteWebFE.llalaal.TextScaled = true
+WhiteWebFE.llalaal.TextSize = 14.000
+WhiteWebFE.llalaal.TextWrapped = true
+
+WhiteWebFE.GuiVers.Name = "GuiVers"
+WhiteWebFE.GuiVers.Parent = WhiteWebFE.GuiInfo
+WhiteWebFE.GuiVers.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.GuiVers.BackgroundTransparency = 1.000
+WhiteWebFE.GuiVers.ClipsDescendants = true
+WhiteWebFE.GuiVers.Size = UDim2.new(0, 55, 0, 29)
+WhiteWebFE.GuiVers.Font = Enum.Font.SourceSansBold
+WhiteWebFE.GuiVers.Text = "Version: nil"
+WhiteWebFE.GuiVers.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.GuiVers.TextSize = 20.000
+WhiteWebFE.GuiVers.TextXAlignment = Enum.TextXAlignment.Left
+
+WhiteWebFE.GuiRunTime.Name = "GuiRunTime"
+WhiteWebFE.GuiRunTime.Parent = WhiteWebFE.GuiInfo
+WhiteWebFE.GuiRunTime.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.GuiRunTime.BackgroundTransparency = 1.000
+WhiteWebFE.GuiRunTime.Size = UDim2.new(0, 135, 0, 29)
+WhiteWebFE.GuiRunTime.Font = Enum.Font.SourceSansBold
+WhiteWebFE.GuiRunTime.Text = "Run Time: 0 sec"
+WhiteWebFE.GuiRunTime.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.GuiRunTime.TextSize = 20.000
+WhiteWebFE.GuiRunTime.TextXAlignment = Enum.TextXAlignment.Left
 
 return WhiteWebFE
