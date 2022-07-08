@@ -3238,7 +3238,6 @@ WhiteWebFE.MainInfo.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 WhiteWebFE.MainInfo.BorderSizePixel = 0
 WhiteWebFE.MainInfo.Position = UDim2.new(0.031, 0,0.095, 0)
 WhiteWebFE.MainInfo.Size = UDim2.new(0, 365, 0, 163)
-WhiteWebFE.MainInfo.CanvasPosition = Vector2.new(0, 309.000031)
 WhiteWebFE.MainInfo.CanvasSize = UDim2.new(0, 0, 2, 70)
 WhiteWebFE.MainInfo.ScrollBarThickness = 4
 WhiteWebFE.MainInfo.Visible = false
