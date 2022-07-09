@@ -343,7 +343,6 @@ local WhiteWebFE = {
 	_5hl5hl5 = Instance.new("UIListLayout"),
 	_5hk3hj5f = Instance.new("UIPadding"),
 	copys_3 = Instance.new("ImageButton"),
-	genre = Instance.new("TextLabel"),
 	_53i59g0 = Instance.new("UIListLayout"),
 	lglglg = Instance.new("UIPadding"),
 	PlayerInfo = Instance.new("Frame"),
@@ -3401,18 +3400,6 @@ WhiteWebFE.copys_3.Size = UDim2.new(0, 35, 0, 26)
 WhiteWebFE.copys_3.Image = "rbxassetid://3424796336"
 WhiteWebFE.copys_3.ScaleType = Enum.ScaleType.Fit
 WhiteWebFE.copys_3.SliceScale = 0.100
-
-WhiteWebFE.genre.Name = "genre"
-WhiteWebFE.genre.Parent = WhiteWebFE.ServerInfo
-WhiteWebFE.genre.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.genre.BackgroundTransparency = 1.000
-WhiteWebFE.genre.Size = UDim2.new(0, 135, 0, 29)
-WhiteWebFE.genre.Font = Enum.Font.SourceSansBold
-WhiteWebFE.genre.Text = "Genre: Loading..."
-WhiteWebFE.genre.TextColor3 = Color3.fromRGB(255, 255, 255)
-WhiteWebFE.genre.TextSize = 20.000
-WhiteWebFE.genre.TextXAlignment = Enum.TextXAlignment.Left
-WhiteWebFE.genre.AutomaticSize = Enum.AutomaticSize.Y
 
 WhiteWebFE._53i59g0.Name = "53i59g0"
 WhiteWebFE._53i59g0.Parent = WhiteWebFE.MainInfo
