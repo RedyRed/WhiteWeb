@@ -38,7 +38,7 @@ logs[#logs+1] = {
     }
 logs[#logs+1] = {
         ['name'] = '1.6.0b',
-        ['updates'] = {'Advanced attach', 'Fixed Master's Chart Obby's Easy mode', 'Made time related features better', 'Remade logs'},
+        ['updates'] = {'Advanced attach', 'Fixed Master\'s Chart Obby\'s Easy mode', 'Made time related features better', 'Remade logs'},
         ['added'] = {'Added commands', 'Added Leave Logs', 'Added Death Logs', 'Added Kill Logs', 'Added Global Logs', 'Added smooth dragging', 'Added global info'},
         ['removed'] = {},
     }
