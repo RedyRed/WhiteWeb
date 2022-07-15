@@ -42,5 +42,11 @@ logs[#logs+1] = {
         ['added'] = {'Added commands', 'Added Leave Logs', 'Added Death Logs', 'Added Kill Logs', 'Added Global Logs', 'Added smooth dragging', 'Added global info'},
         ['removed'] = {},
     }
+logs[#logs+1] = {
+        ['name'] = '1.6.0b',
+        ['updates'] = {'Fixed White Web not working', 'Fixed minor bugs in Horrific Housing'},
+        ['added'] = {},
+        ['removed'] = {},
+    }
 
 return logs
