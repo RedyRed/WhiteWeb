@@ -2403,6 +2403,7 @@ WhiteWebFE.CodeVerif.PlaceholderText = "Code"
 WhiteWebFE.CodeVerif.Text = ""
 WhiteWebFE.CodeVerif.TextColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.CodeVerif.TextSize = 25.000
+WhiteWebFE.CodeVerif.ClipsDescendants = true
 
 WhiteWebFE.UICorner242.Parent = WhiteWebFE.CodeVerif
 
