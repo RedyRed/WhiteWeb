@@ -43,7 +43,7 @@ logs[#logs+1] = {
         ['removed'] = {},
     }
 logs[#logs+1] = {
-        ['name'] = '1.6.0b',
+        ['name'] = '1.6.1b',
         ['updates'] = {'Fixed White Web not working', 'Fixed minor bugs in Horrific Housing'},
         ['added'] = {},
         ['removed'] = {},
