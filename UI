@@ -370,6 +370,9 @@ local WhiteWebFE = {
 }
 
 WhiteWebFE.WhiteWebFE.Name = "WhiteWebFE"
+pcall(function()
+	syn.protect_gui(WhiteWebFE.WhiteWebFE)
+end)
 WhiteWebFE.WhiteWebFE.Parent = game:GetService('CoreGui')
 
 WhiteWebFE.Main.Name = "Main"
