@@ -3606,6 +3606,7 @@ WhiteWebFE.Teleport.Size = UDim2.new(0, 365, 0, 151)
 WhiteWebFE.Teleport.Visible = false
 WhiteWebFE.Teleport.CanvasSize = UDim2.new(0, 0, 0, 0)
 WhiteWebFE.Teleport.ScrollBarThickness = 4
+WhiteWebFE.Teleport.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.dd.Name = "dd"
 WhiteWebFE.dd.Parent = WhiteWebFE.Teleport
