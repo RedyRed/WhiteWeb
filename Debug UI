@@ -402,6 +402,21 @@ local WhiteWebFE = {
 	uicoca = Instance.new("UICorner"),
 }
 
+local UserInputService = game:GetService("UserInputService")
+local gui = WhiteWebFE.Main
+local dragging, dragInput, dragStart, startPos
+local function update(input)local delta = input.Position - dragStart;gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), Enum.EasingDirection.InOut, Enum.EasingStyle.Linear, 0.04, true)end
+gui.InputBegan:Connect(function(input)if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then dragging = true;dragStart = input.Position;startPos = gui.Position;input.Changed:Connect(function()if input.UserInputState == Enum.UserInputState.End then dragging = false end end) end end)
+gui.InputChanged:Connect(function(input)if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then dragInput = input end end)
+UserInputService.InputChanged:Connect(function(input)if input == dragInput and dragging then update(input) end end)
+
+local gui2 = WhiteWebFE.LogsMain
+local dragging2, dragInput2, dragStart2, startPos2
+local function update2(input) local delta = input.Position - dragStart2;gui2:TweenPosition(UDim2.new(startPos2.X.Scale, startPos2.X.Offset + delta.X, startPos2.Y.Scale, startPos2.Y.Offset + delta.Y), Enum.EasingDirection.InOut, Enum.EasingStyle.Linear, 0.04, true) end
+gui2.InputBegan:Connect(function(input) if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then dragging2 = true;dragStart2 = input.Position;startPos2 = gui2.Position;input.Changed:Connect(function()if input.UserInputState == Enum.UserInputState.End then dragging2 = false end end) end end)
+gui2.InputChanged:Connect(function(input)if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then dragInput2 = input end end)
+UserInputService.InputChanged:Connect(function(input)if input == dragInput2 and dragging2 then update2(input) end end)
+
 WhiteWebFE.WhiteWebFE.Name = "WhiteWebFE"
 pcall(function()
 	syn.protect_gui(WhiteWebFE.WhiteWebFE)
@@ -2503,7 +2518,6 @@ WhiteWebFE.LogsMain.BorderSizePixel = 0
 WhiteWebFE.LogsMain.Position = UDim2.new(0.284917057, 0, 0.486180574, 0)
 WhiteWebFE.LogsMain.Size = UDim2.new(0, 266, 0, 59)
 WhiteWebFE.LogsMain.Visible = false
-WhiteWebFE.LogsMain.Draggable = true
 
 WhiteWebFE.LogsTopFrame.Name = "LogsTopFrame"
 WhiteWebFE.LogsTopFrame.Parent = WhiteWebFE.LogsMain
