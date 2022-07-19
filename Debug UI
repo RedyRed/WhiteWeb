@@ -2192,11 +2192,10 @@ WhiteWebFE.Buttinsyes.Active = true
 WhiteWebFE.Buttinsyes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.Buttinsyes.BackgroundTransparency = 1.000
 WhiteWebFE.Buttinsyes.BorderSizePixel = 0
-WhiteWebFE.Buttinsyes.CanvasSize = UDim2.new(0,0,0,0)
+WhiteWebFE.Buttinsyes.CanvasSize = UDim2.new(0,0,1.7,0)
 WhiteWebFE.Buttinsyes.Position = UDim2.new(0, 0, 0.0674846619, 0)
 WhiteWebFE.Buttinsyes.Size = UDim2.new(0, 365, 0, 149)
 WhiteWebFE.Buttinsyes.ScrollBarThickness = 4
-WhiteWebFE.Buttinsyes.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.peeeat.Name = "peeeat"
 WhiteWebFE.peeeat.Parent = WhiteWebFE.Buttinsyes
