@@ -400,6 +400,11 @@ local WhiteWebFE = {
 	creationdate = Instance.new("TextLabel"),
 	dec_3 = Instance.new("Frame"),
 	uicoca = Instance.new("UICorner"),
+	
+	OldTeleport = Instance.new("Frame"),
+	asdasaas = Instance.new("TextLabel"),
+	confirmold = Instance.new("TextButton"),
+	cancelold = Instance.new("TextButton"),
 }
 
 local UserInputService = game:GetService("UserInputService")
@@ -3985,5 +3990,48 @@ WhiteWebFE.dec_3.Size = UDim2.new(0, 347, 0, 1)
 
 WhiteWebFE.uicoca.CornerRadius = UDim.new(99, 99)
 WhiteWebFE.uicoca.Parent = WhiteWebFE.dec_3
+
+
+
+WhiteWebFE.OldTeleport.Name = "OldTeleport"
+WhiteWebFE.OldTeleport.Parent = WhiteWebFE.Scripts
+WhiteWebFE.OldTeleport.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+WhiteWebFE.OldTeleport.BorderSizePixel = 0
+WhiteWebFE.OldTeleport.Position = UDim2.new(0, 0, 0.0780000016, 0)
+WhiteWebFE.OldTeleport.Size = UDim2.new(0, 365, 0, 151)
+
+WhiteWebFE.asdasaas.Name = "asdasaas"
+WhiteWebFE.asdasaas.Parent = WhiteWebFE.OldTeleport
+WhiteWebFE.asdasaas.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.asdasaas.BorderSizePixel = 0
+WhiteWebFE.asdasaas.Position = UDim2.new(0.219178081, 0, 0.0860927105, 0)
+WhiteWebFE.asdasaas.Size = UDim2.new(0, 200, 0, 45)
+WhiteWebFE.asdasaas.Font = Enum.Font.SourceSans
+WhiteWebFE.asdasaas.Text = "Would you like to teleport to the game?"
+WhiteWebFE.asdasaas.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhiteWebFE.asdasaas.TextSize = 20.000
+WhiteWebFE.asdasaas.TextWrapped = true
+
+WhiteWebFE.confirmold.Name = "confirmold"
+WhiteWebFE.confirmold.Parent = WhiteWebFE.OldTeleport
+WhiteWebFE.confirmold.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.confirmold.BorderSizePixel = 0
+WhiteWebFE.confirmold.Position = UDim2.new(0.0383561626, 0, 0.54966867, 0)
+WhiteWebFE.confirmold.Size = UDim2.new(0, 142, 0, 34)
+WhiteWebFE.confirmold.Font = Enum.Font.Highway
+WhiteWebFE.confirmold.Text = "Confirm"
+WhiteWebFE.confirmold.TextColor3 = Color3.fromRGB(85, 255, 91)
+WhiteWebFE.confirmold.TextSize = 25.000
+
+WhiteWebFE.cancelold.Name = "cancelold"
+WhiteWebFE.cancelold.Parent = WhiteWebFE.OldTeleport
+WhiteWebFE.cancelold.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+WhiteWebFE.cancelold.BorderSizePixel = 0
+WhiteWebFE.cancelold.Position = UDim2.new(0.567123294, 0, 0.54966867, 0)
+WhiteWebFE.cancelold.Size = UDim2.new(0, 142, 0, 34)
+WhiteWebFE.cancelold.Font = Enum.Font.Highway
+WhiteWebFE.cancelold.Text = "Cancel"
+WhiteWebFE.cancelold.TextColor3 = Color3.fromRGB(255, 101, 103)
+WhiteWebFE.cancelold.TextSize = 25.000
 
 return WhiteWebFE
