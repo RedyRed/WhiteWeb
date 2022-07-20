@@ -2641,7 +2641,7 @@ WhiteWebFE.Logas.ScrollBarThickness = 4
 WhiteWebFE.Logas.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.CLogsLog.Name = "CLogsLog"
-WhiteWebFE.CLogsLog.Parent = WhiteWebFE.Logas
+WhiteWebFE.CLogsLog.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.CLogsLog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.CLogsLog.BackgroundTransparency = 1.000
 WhiteWebFE.CLogsLog.Size = UDim2.new(0, 251, 0, 17)
@@ -2732,7 +2732,7 @@ WhiteWebFE.llalal.SortOrder = Enum.SortOrder.LayoutOrder
 WhiteWebFE.llalal.Padding = UDim.new(0, 5)
 
 WhiteWebFE.JLogsLog.Name = "JLogsLog"
-WhiteWebFE.JLogsLog.Parent = WhiteWebFE.Logaas
+WhiteWebFE.JLogsLog.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.JLogsLog.Active = true
 WhiteWebFE.JLogsLog.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 WhiteWebFE.JLogsLog.BorderSizePixel = 0
@@ -3030,7 +3030,7 @@ WhiteWebFE.Logaaaas.ScrollBarThickness = 4
 WhiteWebFE.Logaaaas.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.DLogsLog.Name = "DLogsLog"
-WhiteWebFE.DLogsLog.Parent = WhiteWebFE.Logaaaas
+WhiteWebFE.DLogsLog.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.DLogsLog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.DLogsLog.BackgroundTransparency = 1.000
 WhiteWebFE.DLogsLog.Size = UDim2.new(0, 251, 0, 17)
@@ -3093,7 +3093,7 @@ WhiteWebFE.Logaaaaas.ScrollBarThickness = 4
 WhiteWebFE.Logaaaaas.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.KLogsLog.Name = "KLogsLog"
-WhiteWebFE.KLogsLog.Parent = WhiteWebFE.Logaaaaas
+WhiteWebFE.KLogsLog.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.KLogsLog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.KLogsLog.BackgroundTransparency = 1.000
 WhiteWebFE.KLogsLog.Size = UDim2.new(0, 251, 0, 17)
@@ -3155,7 +3155,7 @@ WhiteWebFE.LogasG.ScrollBarThickness = 4
 WhiteWebFE.LogasG.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.GcLogsLog.Name = "GcLogsLog"
-WhiteWebFE.GcLogsLog.Parent = WhiteWebFE.LogasG
+WhiteWebFE.GcLogsLog.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.GcLogsLog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.GcLogsLog.BackgroundTransparency = 1.000
 WhiteWebFE.GcLogsLog.Size = UDim2.new(0, 251, 0, 17)
@@ -3173,7 +3173,7 @@ WhiteWebFE.globalnoob.Parent = WhiteWebFE.LogasG
 WhiteWebFE.globalnoob.SortOrder = Enum.SortOrder.LayoutOrder
 
 WhiteWebFE.GkLogsLog.Name = "GkLogsLog"
-WhiteWebFE.GkLogsLog.Parent = WhiteWebFE.LogasG
+WhiteWebFE.GkLogsLog.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.GkLogsLog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.GkLogsLog.BackgroundTransparency = 1.000
 WhiteWebFE.GkLogsLog.Size = UDim2.new(0, 251, 0, 17)
@@ -3187,7 +3187,7 @@ WhiteWebFE.GkLogsLog.TextXAlignment = Enum.TextXAlignment.Left
 WhiteWebFE.GkLogsLog.AutomaticSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.GdLogsLog.Name = "GdLogsLog"
-WhiteWebFE.GdLogsLog.Parent = WhiteWebFE.LogasG
+WhiteWebFE.GdLogsLog.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.GdLogsLog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.GdLogsLog.BackgroundTransparency = 1.000
 WhiteWebFE.GdLogsLog.Size = UDim2.new(0, 251, 0, 17)
@@ -3201,7 +3201,7 @@ WhiteWebFE.GdLogsLog.TextXAlignment = Enum.TextXAlignment.Left
 WhiteWebFE.GdLogsLog.AutomaticSize = Enum.AutomaticSize.Y
 
 WhiteWebFE.GjlLogsLog.Name = "GjlLogsLog"
-WhiteWebFE.GjlLogsLog.Parent = WhiteWebFE.LogasG
+WhiteWebFE.GjlLogsLog.Parent = WhiteWebFE.STORAGE
 WhiteWebFE.GjlLogsLog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WhiteWebFE.GjlLogsLog.BackgroundTransparency = 1.000
 WhiteWebFE.GjlLogsLog.Size = UDim2.new(0, 251, 0, 17)
